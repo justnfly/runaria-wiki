@@ -1827,8 +1827,7 @@
 <p><strong>Crows.</strong> That's it.</p>
 <p>Seasons don't kill anything on Runaria — an out-of-season crop just sits there until its season comes round again, or until you glass it in. <strong>Scarecrows protect crops within 7 blocks</strong> from crows, and a scarecrow plus greenhouse glass makes a plot effectively safe.</p>
 <h2 id="how-growth-works">How growth works<a class="headerlink" href="#how-growth-works" title="Permanent link">&para;</a></h2>
-<p>Crops advance by <strong>growth points</strong> rather than vanilla stages. Each tick that passes its conditions gives one point, and the crop is harvestable once it reaches its total.</p>
-<p>Two things are checked every tick:</p>
+<p>A crop only makes progress while its conditions are met. Two things are checked as it grows:</p>
 <ol>
 <li><strong>Season</strong> — must be one the crop accepts, unless Greenhouse Glass is covering it.</li>
 <li><strong>Water</strong> — the farmland has to stay hydrated. Tree and fruit crops are thirstier than field crops.</li>
@@ -1938,14 +1937,12 @@
 </div>
 <p>Seeds can also be bought from the <a href="../../economy/market/">server shop</a>, which restocks a small rotating selection every three hours — weighted so common seeds appear far more often than rare ones.</p>
 <h2 id="the-crops">The crops<a class="headerlink" href="#the-crops" title="Permanent link">&para;</a></h2>
-<p>"Points" is how many successful growth ticks a crop needs — lower is faster.</p>
 <h3 id="common">Common<a class="headerlink" href="#common" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
 <th>Crop</th>
 <th>Season</th>
-<th>Points</th>
 <th>Yield</th>
 <th>Stars</th>
 <th>Farming XP</th>
@@ -1955,7 +1952,6 @@
 <tr>
 <td>Blackberry</td>
 <td>Summer</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>3</td>
@@ -1963,7 +1959,6 @@
 <tr>
 <td>Cabbage</td>
 <td>Spring</td>
-<td>4</td>
 <td>1</td>
 <td>Yes</td>
 <td>3</td>
@@ -1971,7 +1966,6 @@
 <tr>
 <td>Chili</td>
 <td>Autumn</td>
-<td>3</td>
 <td>1–5</td>
 <td>No</td>
 <td>3</td>
@@ -1979,7 +1973,6 @@
 <tr>
 <td>Corn</td>
 <td>Summer</td>
-<td>3</td>
 <td>1</td>
 <td>Yes</td>
 <td>3</td>
@@ -1987,7 +1980,6 @@
 <tr>
 <td>Cucumber</td>
 <td>Spring</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>3</td>
@@ -1995,7 +1987,6 @@
 <tr>
 <td>Garlic</td>
 <td>Winter</td>
-<td>3</td>
 <td>4</td>
 <td>Yes</td>
 <td>3</td>
@@ -2003,7 +1994,6 @@
 <tr>
 <td>Pepper</td>
 <td>Autumn</td>
-<td>5</td>
 <td>3–6</td>
 <td>Yes</td>
 <td>—</td>
@@ -2011,7 +2001,6 @@
 <tr>
 <td>Raspberry</td>
 <td>Winter</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>3</td>
@@ -2019,7 +2008,6 @@
 <tr>
 <td>Tomato</td>
 <td>Spring, Autumn</td>
-<td>6</td>
 <td>1–4</td>
 <td>Yes</td>
 <td>3</td>
@@ -2032,7 +2020,6 @@
 <tr>
 <th>Crop</th>
 <th>Season</th>
-<th>Points</th>
 <th>Yield</th>
 <th>Stars</th>
 <th>Farming XP</th>
@@ -2042,7 +2029,6 @@
 <tr>
 <td>Blueberry</td>
 <td>Summer</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>6</td>
@@ -2050,7 +2036,6 @@
 <tr>
 <td>Cherries</td>
 <td>Spring</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>6</td>
@@ -2058,7 +2043,6 @@
 <tr>
 <td>Grape</td>
 <td>Autumn</td>
-<td>8</td>
 <td>3–5</td>
 <td>Yes</td>
 <td>6</td>
@@ -2066,7 +2050,6 @@
 <tr>
 <td>Hop</td>
 <td>Summer</td>
-<td>3</td>
 <td>2–5</td>
 <td>Yes</td>
 <td>6</td>
@@ -2074,7 +2057,6 @@
 <tr>
 <td>Napa Cabbage</td>
 <td>Spring</td>
-<td>3</td>
 <td>1</td>
 <td>Yes</td>
 <td>6</td>
@@ -2082,7 +2064,6 @@
 <tr>
 <td>Plum</td>
 <td>Winter</td>
-<td>3</td>
 <td>1–5</td>
 <td>No</td>
 <td>6</td>
@@ -2095,7 +2076,6 @@
 <tr>
 <th>Crop</th>
 <th>Season</th>
-<th>Points</th>
 <th>Yield</th>
 <th>Stars</th>
 <th>Farming XP</th>
@@ -2105,7 +2085,6 @@
 <tr>
 <td>Avocado</td>
 <td>Spring, Summer</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>9</td>
@@ -2113,7 +2092,6 @@
 <tr>
 <td>Eggplant</td>
 <td>Summer, Autumn</td>
-<td>3</td>
 <td>2–5</td>
 <td>Yes</td>
 <td>9</td>
@@ -2121,7 +2099,6 @@
 <tr>
 <td>Goji Berry</td>
 <td>Autumn, Winter</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>9</td>
@@ -2129,7 +2106,6 @@
 <tr>
 <td>Lemon</td>
 <td>Winter, Spring</td>
-<td>4</td>
 <td>1–5</td>
 <td>No</td>
 <td>9</td>
@@ -2137,7 +2113,6 @@
 <tr>
 <td>Orange</td>
 <td>Spring, Summer</td>
-<td>2</td>
 <td>1–5</td>
 <td>No</td>
 <td>9</td>
@@ -2145,7 +2120,6 @@
 <tr>
 <td>Pineapple</td>
 <td>Autumn, Winter</td>
-<td>4</td>
 <td>1</td>
 <td>Yes</td>
 <td>9</td>
@@ -2159,7 +2133,6 @@
 <tr>
 <th>Crop</th>
 <th>Season</th>
-<th>Points</th>
 <th>Yield</th>
 <th>Stars</th>
 <th>Farming XP</th>
@@ -2169,7 +2142,6 @@
 <tr>
 <td>Coconut</td>
 <td>Spring, Summer</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>21</td>
@@ -2177,7 +2149,6 @@
 <tr>
 <td>Guava</td>
 <td>Summer, Autumn</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>14</td>
@@ -2185,7 +2156,6 @@
 <tr>
 <td>Kiwi</td>
 <td>Autumn, Winter</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>14</td>
@@ -2193,7 +2163,6 @@
 <tr>
 <td>Mango</td>
 <td>Winter, Spring</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>14</td>
@@ -2201,7 +2170,6 @@
 <tr>
 <td>Papaya</td>
 <td>Summer, Autumn</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>14</td>
@@ -2214,7 +2182,6 @@
 <tr>
 <th>Crop</th>
 <th>Season</th>
-<th>Points</th>
 <th>Yield</th>
 <th>Stars</th>
 <th>Farming XP</th>
@@ -2224,7 +2191,6 @@
 <tr>
 <td>Dragon Fruit</td>
 <td>Spring, Autumn, Winter</td>
-<td>8</td>
 <td>3–5</td>
 <td>Yes</td>
 <td>21</td>
@@ -2232,7 +2198,6 @@
 <tr>
 <td>Durian</td>
 <td>Summer, Autumn, Winter</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td><strong>32</strong></td>
@@ -2240,7 +2205,6 @@
 <tr>
 <td>Red Packet</td>
 <td>Spring, Summer, Winter</td>
-<td>5</td>
 <td>1–4</td>
 <td>No</td>
 <td><strong>32</strong></td>
@@ -2248,7 +2212,6 @@
 <tr>
 <td>Starfruit</td>
 <td>Spring, Summer, Autumn</td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>21</td>
@@ -2261,7 +2224,6 @@
 <tr>
 <th>Crop</th>
 <th>Season</th>
-<th>Points</th>
 <th>Yield</th>
 <th>Stars</th>
 <th>Farming XP</th>
@@ -2271,7 +2233,6 @@
 <tr>
 <td><strong>Lychee</strong></td>
 <td><strong>All four seasons</strong></td>
-<td>4</td>
 <td>1–5</td>
 <td>Yes</td>
 <td>21</td>
@@ -2280,7 +2241,7 @@
 </table>
 <p>The only crop that grows year-round <em>and</em> has star grades — and the rarest seed in the game.</p>
 <h3 id="no-seed-of-their-own">No seed of their own<a class="headerlink" href="#no-seed-of-their-own" title="Permanent link">&para;</a></h3>
-<p><strong>Peach</strong> (Spring–Autumn, 2 points, 1–5 yield, 6 XP) and <strong>Apple</strong> (any season, 8 points, 1–4 yield, 3 XP) don't appear in Seed Bags. Apple is a tree that keeps producing once established, and neither rolls star grades.</p>
+<p><strong>Peach</strong> (Spring–Autumn, 1–5 yield, 6 XP) and <strong>Apple</strong> (any season, 1–4 yield, 3 XP) don't appear in Seed Bags. Apple is a tree that keeps producing once established, and neither rolls star grades.</p>
 <div class="admonition tip">
 <p class="admonition-title">What to plant</p>
 <p><strong>Durian and Red Packet</strong> give the most farming experience by a wide margin. <strong>Grape, Dragon Fruit and Apple</strong> are the slowest growers. And because Greenhouse Glass frees you from the calendar, the practical question is less "what's in season" than "what's worth the plot".</p>
@@ -2345,7 +2306,7 @@
 </table>
 <p>Sprinkler III is the one worth saving for — it never needs refilling.</p>
 <h3 id="fertilizers">Fertilizers<a class="headerlink" href="#fertilizers" title="Permanent link">&para;</a></h3>
-<p>Five families, three tiers each.</p>
+<p>Four families, three tiers each.</p>
 <table>
 <thead>
 <tr>
@@ -2364,22 +2325,18 @@
 </tr>
 <tr>
 <td><strong>Speed Grow</strong></td>
-<td>Chance of bonus growth points per tick</td>
+<td>Chance to grow faster</td>
 </tr>
 <tr>
 <td><strong>Soil Retain</strong></td>
 <td>10%, 20% or 30% chance not to consume water</td>
-</tr>
-<tr>
-<td><strong>Variation</strong></td>
-<td>2%, 4% or 8% chance to mutate into a variant crop</td>
 </tr>
 </tbody>
 </table>
 <p>Quality and Soil Retain last 28 growth cycles; the others last 14.</p>
 <div class="admonition note">
 <p class="admonition-title">Apply order matters</p>
-<p><strong>Quality, Speed Grow and Yield Increase must go on before you plant.</strong> Soil Retain and Variation can be applied at any time.</p>
+<p><strong>Quality, Speed Grow and Yield Increase must go on before you plant.</strong> Soil Retain can be applied at any time.</p>
 </div>
 
 
