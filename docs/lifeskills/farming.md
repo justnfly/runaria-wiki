@@ -21,9 +21,7 @@ Seasons don't kill anything on Runaria — an out-of-season crop just sits there
 
 ## How growth works
 
-Crops advance by **growth points** rather than vanilla stages. Each tick that passes its conditions gives one point, and the crop is harvestable once it reaches its total.
-
-Two things are checked every tick:
+A crop only makes progress while its conditions are met. Two things are checked as it grows:
 
 1. **Season** — must be one the crop accepts, unless Greenhouse Glass is covering it.
 2. **Water** — the farmland has to stay hydrated. Tree and fruit crops are thirstier than field crops.
@@ -70,76 +68,74 @@ Seeds can also be bought from the [server shop](../economy/market.md), which res
 
 ## The crops
 
-"Points" is how many successful growth ticks a crop needs — lower is faster.
-
 ### Common
 
-| Crop | Season | Points | Yield | Stars | Farming XP |
-| --- | --- | --- | --- | --- | --- |
-| Blackberry | Summer | 4 | 1–5 | Yes | 3 |
-| Cabbage | Spring | 4 | 1 | Yes | 3 |
-| Chili | Autumn | 3 | 1–5 | No | 3 |
-| Corn | Summer | 3 | 1 | Yes | 3 |
-| Cucumber | Spring | 4 | 1–5 | Yes | 3 |
-| Garlic | Winter | 3 | 4 | Yes | 3 |
-| Pepper | Autumn | 5 | 3–6 | Yes | — |
-| Raspberry | Winter | 4 | 1–5 | Yes | 3 |
-| Tomato | Spring, Autumn | 6 | 1–4 | Yes | 3 |
+| Crop | Season | Yield | Stars | Farming XP |
+| --- | --- | --- | --- | --- |
+| Blackberry | Summer | 1–5 | Yes | 3 |
+| Cabbage | Spring | 1 | Yes | 3 |
+| Chili | Autumn | 1–5 | No | 3 |
+| Corn | Summer | 1 | Yes | 3 |
+| Cucumber | Spring | 1–5 | Yes | 3 |
+| Garlic | Winter | 4 | Yes | 3 |
+| Pepper | Autumn | 3–6 | Yes | — |
+| Raspberry | Winter | 1–5 | Yes | 3 |
+| Tomato | Spring, Autumn | 1–4 | Yes | 3 |
 
 ### Uncommon
 
-| Crop | Season | Points | Yield | Stars | Farming XP |
-| --- | --- | --- | --- | --- | --- |
-| Blueberry | Summer | 4 | 1–5 | Yes | 6 |
-| Cherries | Spring | 4 | 1–5 | Yes | 6 |
-| Grape | Autumn | 8 | 3–5 | Yes | 6 |
-| Hop | Summer | 3 | 2–5 | Yes | 6 |
-| Napa Cabbage | Spring | 3 | 1 | Yes | 6 |
-| Plum | Winter | 3 | 1–5 | No | 6 |
+| Crop | Season | Yield | Stars | Farming XP |
+| --- | --- | --- | --- | --- |
+| Blueberry | Summer | 1–5 | Yes | 6 |
+| Cherries | Spring | 1–5 | Yes | 6 |
+| Grape | Autumn | 3–5 | Yes | 6 |
+| Hop | Summer | 2–5 | Yes | 6 |
+| Napa Cabbage | Spring | 1 | Yes | 6 |
+| Plum | Winter | 1–5 | No | 6 |
 
 ### Rare
 
-| Crop | Season | Points | Yield | Stars | Farming XP |
-| --- | --- | --- | --- | --- | --- |
-| Avocado | Spring, Summer | 4 | 1–5 | Yes | 9 |
-| Eggplant | Summer, Autumn | 3 | 2–5 | Yes | 9 |
-| Goji Berry | Autumn, Winter | 4 | 1–5 | Yes | 9 |
-| Lemon | Winter, Spring | 4 | 1–5 | No | 9 |
-| Orange | Spring, Summer | 2 | 1–5 | No | 9 |
-| Pineapple | Autumn, Winter | 4 | 1 | Yes | 9 |
+| Crop | Season | Yield | Stars | Farming XP |
+| --- | --- | --- | --- | --- |
+| Avocado | Spring, Summer | 1–5 | Yes | 9 |
+| Eggplant | Summer, Autumn | 2–5 | Yes | 9 |
+| Goji Berry | Autumn, Winter | 1–5 | Yes | 9 |
+| Lemon | Winter, Spring | 1–5 | No | 9 |
+| Orange | Spring, Summer | 1–5 | No | 9 |
+| Pineapple | Autumn, Winter | 1 | Yes | 9 |
 
 Lemon is planted from a **sapling** rather than a seed.
 
 ### Epic
 
-| Crop | Season | Points | Yield | Stars | Farming XP |
-| --- | --- | --- | --- | --- | --- |
-| Coconut | Spring, Summer | 4 | 1–5 | Yes | 21 |
-| Guava | Summer, Autumn | 4 | 1–5 | Yes | 14 |
-| Kiwi | Autumn, Winter | 4 | 1–5 | Yes | 14 |
-| Mango | Winter, Spring | 4 | 1–5 | Yes | 14 |
-| Papaya | Summer, Autumn | 4 | 1–5 | Yes | 14 |
+| Crop | Season | Yield | Stars | Farming XP |
+| --- | --- | --- | --- | --- |
+| Coconut | Spring, Summer | 1–5 | Yes | 21 |
+| Guava | Summer, Autumn | 1–5 | Yes | 14 |
+| Kiwi | Autumn, Winter | 1–5 | Yes | 14 |
+| Mango | Winter, Spring | 1–5 | Yes | 14 |
+| Papaya | Summer, Autumn | 1–5 | Yes | 14 |
 
 ### Legendary
 
-| Crop | Season | Points | Yield | Stars | Farming XP |
-| --- | --- | --- | --- | --- | --- |
-| Dragon Fruit | Spring, Autumn, Winter | 8 | 3–5 | Yes | 21 |
-| Durian | Summer, Autumn, Winter | 4 | 1–5 | Yes | **32** |
-| Red Packet | Spring, Summer, Winter | 5 | 1–4 | No | **32** |
-| Starfruit | Spring, Summer, Autumn | 4 | 1–5 | Yes | 21 |
+| Crop | Season | Yield | Stars | Farming XP |
+| --- | --- | --- | --- | --- |
+| Dragon Fruit | Spring, Autumn, Winter | 3–5 | Yes | 21 |
+| Durian | Summer, Autumn, Winter | 1–5 | Yes | **32** |
+| Red Packet | Spring, Summer, Winter | 1–4 | No | **32** |
+| Starfruit | Spring, Summer, Autumn | 1–5 | Yes | 21 |
 
 ### Unique
 
-| Crop | Season | Points | Yield | Stars | Farming XP |
-| --- | --- | --- | --- | --- | --- |
-| **Lychee** | **All four seasons** | 4 | 1–5 | Yes | 21 |
+| Crop | Season | Yield | Stars | Farming XP |
+| --- | --- | --- | --- | --- |
+| **Lychee** | **All four seasons** | 1–5 | Yes | 21 |
 
 The only crop that grows year-round *and* has star grades — and the rarest seed in the game.
 
 ### No seed of their own
 
-**Peach** (Spring–Autumn, 2 points, 1–5 yield, 6 XP) and **Apple** (any season, 8 points, 1–4 yield, 3 XP) don't appear in Seed Bags. Apple is a tree that keeps producing once established, and neither rolls star grades.
+**Peach** (Spring–Autumn, 1–5 yield, 6 XP) and **Apple** (any season, 1–4 yield, 3 XP) don't appear in Seed Bags. Apple is a tree that keeps producing once established, and neither rolls star grades.
 
 !!! tip "What to plant"
     **Durian and Red Packet** give the most farming experience by a wide margin. **Grape, Dragon Fruit and Apple** are the slowest growers. And because Greenhouse Glass frees you from the calendar, the practical question is less "what's in season" than "what's worth the plot".
@@ -166,17 +162,16 @@ Sprinkler III is the one worth saving for — it never needs refilling.
 
 ### Fertilizers
 
-Five families, three tiers each.
+Four families, three tiers each.
 
 | Family | What it does |
 | --- | --- |
 | **Quality** | Better star odds (see above) |
 | **Yield Increase** | Chance of extra crops per harvest — tier III guarantees at least two extra |
-| **Speed Grow** | Chance of bonus growth points per tick |
+| **Speed Grow** | Chance to grow faster |
 | **Soil Retain** | 10%, 20% or 30% chance not to consume water |
-| **Variation** | 2%, 4% or 8% chance to mutate into a variant crop |
 
 Quality and Soil Retain last 28 growth cycles; the others last 14.
 
 !!! note "Apply order matters"
-    **Quality, Speed Grow and Yield Increase must go on before you plant.** Soil Retain and Variation can be applied at any time.
+    **Quality, Speed Grow and Yield Increase must go on before you plant.** Soil Retain can be applied at any time.
