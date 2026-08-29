@@ -1,6 +1,6 @@
 # Cooking & Food
 
-Thirty dishes, each in three grades, crafted at the **Cooking Station** (`/cooking`). Cooking has the widest level range of any station on the server — recipes from level 1 to level 180.
+Thirty dishes, each in three grades, crafted at the **Cooking Station** — talk to **Kate** to open it. Cooking has the widest level range of any station on the server, with recipes from level 1 to level 180.
 
 ## The three grades
 

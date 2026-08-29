@@ -2,6 +2,8 @@
 
 Two socketable systems share one starting point. Both begin at the **Apothecary**, and both are powered by your **Gemforging** profession.
 
+**[Kiko](../economy/stations.md) runs all of it** — every station on this page is opened by talking to her.
+
 ```
 Apothecary  →  Gem Catalyst  ─┬─→  Gem Station    →  stat gemstones
                               └─→  Enchant Forge  →  enchant stones
@@ -13,7 +15,7 @@ The Apothecary's single recipe consumes only **dungeon reagents**, so gem crafti
 
 ## Gemstones
 
-Four families, five quality grades each — twenty gemstones, all crafted at `/gemstation`.
+Four families, five quality grades each — twenty gemstones, all crafted at the **Gem Station**. Talk to **Kiko**.
 
 ### Quality
 

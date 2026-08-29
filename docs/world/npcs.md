@@ -6,7 +6,10 @@ Runaria's NPCs hold real conversations. Right-click one and just type in chat â€
 
 - **Right-click an NPC and chat normally.** Say `bye`, or just go quiet, to end the conversation.
 - While you're mid-conversation, other players' public chat is hidden so the thread stays readable.
-- NPCs with quests or services open a chooser first: **Talk**, **Quests**, or their service button (like the Refinery). Quest hand-ins always work as normal.
+- NPCs with quests or services open a chooser first: **Talk**, **Quests**, or their service button. Quest hand-ins always work as normal.
+
+!!! tip "The craftsmen are NPCs too"
+    **Velreal** (forges and workbenches), **Browntul** (refineries), **Kiko** (gems and enchanting) and **Kate** (cooking) each open their [crafting stations](../economy/stations.md) from that same menu â€” and you can talk to them like anyone else while you're there.
 
 ## They remember you
 

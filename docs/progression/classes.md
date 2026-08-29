@@ -114,7 +114,7 @@ The four numbers are the server's own 0–10 ratings: **Damage / Defense / Magic
 
 You earn **1 skill point per class level**, spent on levelling your class skills. Skills cap at level 30; your ultimate caps at 20.
 
-**Ability Stones** for your class's signature abilities are crafted at the Ability Gem Forge (`/abilityforge`). Each class has its own five-level ability line, and you only ever see recipes for the class you're currently playing.
+**Ability Stones** for your class's signature abilities are crafted at the Ability Gem Forge — talk to **Kiko**. Each class has its own five-level ability line, and you only ever see recipes for the class you're currently playing.
 
 ## Levelling
 

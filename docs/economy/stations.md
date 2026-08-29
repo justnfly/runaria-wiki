@@ -1,34 +1,48 @@
 # Crafting Stations
 
-Every station works the same way: open it with its command, pick a recipe, and the craft goes into a **queue of up to ten items** that finishes on a timer. Click the queue slot to claim.
+**You open crafting stations by talking to the craftsman who runs them.** Four NPCs cover everything on the server between them — find the right one, and they'll open the station you need.
+
+| Craftsman | Handles |
+| --- | --- |
+| 🔨 **Velreal** | Every forge and workbench — all weapons and armor |
+| ⚒️ **Browntul** | Every refinery — turning raw ore into ingots |
+| 💎 **Kiko** | All gem crafting — catalysts, gemstones, enchant stones and ability stones |
+| 🍲 **Kate** | The Cooking Station |
+
+Once a station is open, they all behave the same way: pick a recipe, and the craft goes into a **queue of up to ten items** that finishes on a timer. Click the queue slot to claim it.
+
+!!! tip "Ranked players can skip the trip"
+    Certain ranks unlock commands that open stations from anywhere, without visiting the NPC. If you don't have the rank, the craftsmen are the way in — and they're not going anywhere.
 
 ## The stations
 
-| Station | Command | What it's for |
+| Station | Who runs it | What it's for |
 | --- | --- | --- |
-| **Basic Refinery** | `/basicrefinery` | Refining tier-1 ores, and making Ember Stones and Big Ingots |
-| **Advanced Refinery** | `/advancedrefinery` | Tier-2 ores and Blaze Cores |
-| **Supreme Refinery** | `/supremerefinery` | Tier-3 ores and Fire Essence |
-| **Master Refinery** | `/masterrefinery` | Tier-4 ores — the endgame metals |
-| **Rusty Forge** | `/rustyforge` | Common weapons |
-| **Iron Forge** | `/ironforge` | Uncommon weapons |
-| **Tempered Forge** | `/temperedforge` | Rare weapons |
-| **Runed Forge** | `/runedforge` | Epic weapons |
-| **Mythic Forge** | `/mythicforge` | Legendary weapons |
-| **Padded Workbench** | `/paddedbench` | Common armor |
-| **Hardened Workbench** | `/hardenedbench` | Uncommon armor |
-| **Plated Workbench** | `/platedbench` | Rare armor |
-| **Runed Workbench** | `/runedbench` | Epic armor |
-| **Ascended Workbench** | `/ascendedbench` | Legendary armor |
-| **Apothecary** | `/apothecary` | Gem Catalysts — the gateway to all gem and enchant crafting |
-| **Gem Station** | `/gemstation` | Stat gemstones |
-| **Enchant Forge** | `/enchantforge` | Enchant Stones |
-| **Ability Gem Forge** | `/abilityforge` | Your class's ability stones |
-| **Cooking Station** | `/cooking` | Buff foods |
+| **Basic Refinery** | Browntul | Refining tier-1 ores, and making Ember Stones and Big Ingots |
+| **Advanced Refinery** | Browntul | Tier-2 ores and Blaze Cores |
+| **Supreme Refinery** | Browntul | Tier-3 ores and Fire Essence |
+| **Master Refinery** | Browntul | Tier-4 ores — the endgame metals |
+| **Rusty Forge** | Velreal | Common weapons |
+| **Iron Forge** | Velreal | Uncommon weapons |
+| **Tempered Forge** | Velreal | Rare weapons |
+| **Runed Forge** | Velreal | Epic weapons |
+| **Mythic Forge** | Velreal | Legendary weapons |
+| **Padded Workbench** | Velreal | Common armor |
+| **Hardened Workbench** | Velreal | Uncommon armor |
+| **Plated Workbench** | Velreal | Rare armor |
+| **Runed Workbench** | Velreal | Epic armor |
+| **Ascended Workbench** | Velreal | Legendary armor |
+| **Apothecary** | Kiko | Gem Catalysts — the gateway to all gem and enchant crafting |
+| **Gem Station** | Kiko | Stat gemstones |
+| **Enchant Forge** | Kiko | Enchant Stones |
+| **Ability Gem Forge** | Kiko | Your class's ability stones |
+| **Cooking Station** | Kate | Buff foods |
 
 ---
 
 ## The refineries
+
+*Talk to **Browntul**.*
 
 Raw ore is useless until it's refined. There are four refineries, one per mine tier, and **each only handles the ores from its own tier**.
 
@@ -51,6 +65,8 @@ Every refine awards both **Smelting** and **Blacksmithing** experience.
 ---
 
 ## Forges and workbenches
+
+*Talk to **Velreal**.*
 
 These don't create items from nothing — they **upgrade an item you already have**. You bring the base weapon or armor piece plus metal, and get back a crafted version with better, rolled stats.
 
@@ -98,6 +114,8 @@ Craft times run 5–10 seconds for weapons; armor is consistent by slot at 6 sec
 
 ## Gems and enchanting
 
+*Talk to **Kiko**.*
+
 Four stations feed into this, and the order matters:
 
 ```
@@ -118,6 +136,8 @@ See [Gems & Enchanting](gems.md) for the detail.
 ---
 
 ## The Cooking Station
+
+*Talk to **Kate**.*
 
 The only station gated primarily on **profession level** rather than materials, and it has the widest range on the server — recipes from level 1 all the way to 180.
 

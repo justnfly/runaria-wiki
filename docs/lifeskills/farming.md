@@ -20,12 +20,12 @@ Crops advance by **growth points** rather than vanilla stages. Each tick that pa
 Two things are checked every tick:
 
 1. **Season** — must be one the crop accepts.
-2. **Water** — field crops need at least 1 in the pot, tree and fruit crops need at least 2.
+2. **Water** — the farmland has to stay hydrated. Tree and fruit crops are thirstier than field crops.
 
-A pot holds **12 water**, collects rainwater, and takes one fertilizer at a time. A water bucket adds 3, a bottle adds 1.
+Runaria uses **ordinary vanilla farmland**, so the usual rules apply: keep water within range of your plot, or bring it to the crops yourself with a watering can or a sprinkler. Rain waters your fields for free.
 
-!!! warning "Dry pots kill crops"
-    On any tick where the pot is dry, most crops have a high chance of withering. **Apple, Garlic and Dragon Fruit are the exceptions** — they have no death conditions at all, which makes them the safest crops to leave unattended.
+!!! warning "Dry farmland kills crops"
+    On any tick where the farmland has dried out, most crops have a high chance of withering. **Apple, Garlic and Dragon Fruit are the exceptions** — they have no death conditions at all, which makes them the safest crops to leave unattended.
 
 ## Star quality
 

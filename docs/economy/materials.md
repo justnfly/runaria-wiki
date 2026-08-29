@@ -74,7 +74,7 @@ The early-game backbone. Everything a new player crafts is made from these six.
 
 ## Ingots and Big Ingots
 
-Every metal exists in two forms, and the difference decides what you can craft.
+Refining happens at the four refineries — **talk to Browntul** to open them. Every metal exists in two forms, and the difference decides what you can craft.
 
 **Ingots** are the standard bar, straight from a refinery.
 
