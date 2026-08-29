@@ -74,19 +74,29 @@ nav:
   - Progression:
       - Classes & Class Tokens: progression/classes.md
       - Traits: progression/traits.md
+      - Professions: progression/professions.md
+      - Attributes: progression/attributes.md
   - Guilds & Quests:
       - Guilds: guilds/guilds.md
       - Quests & Quest Points: guilds/quests.md
   - Adventure:
       - Dungeons & Parties: adventure/dungeons.md
+      - Bestiary: adventure/bestiary.md
       - Anomaly Zones: adventure/anomaly-zones.md
       - Resource Drops: adventure/resource-drops.md
       - PvP & Bounties: adventure/pvp.md
       - Siege Zones: adventure/siege-zones.md
   - Economy & Crafting:
+      - Crafting Stations: economy/stations.md
+      - Ores & Materials: economy/materials.md
+      - Gems & Enchanting: economy/gems.md
+      - Item Quality: economy/crafting.md
       - The Market: economy/market.md
-      - Crafting & Item Quality: economy/crafting.md
       - Backpacks: economy/backpacks.md
+  - Life Skills:
+      - Farming & Seasons: lifeskills/farming.md
+      - Fishing: lifeskills/fishing.md
+      - Cooking & Food: lifeskills/cooking.md
   - Automation:
       - Bots: automation/bots.md
   - The World:
