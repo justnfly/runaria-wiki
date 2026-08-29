@@ -34,8 +34,8 @@ Every harvest rolls a grade:
 | Grade | Base chance |
 | --- | --- |
 | Normal | 85% |
-| ⭐ **Silver Star** | 10% |
-| ⭐ **Golden Star** | 5% |
+| **Silver Star** | 10% |
+| **Golden Star** | 5% |
 
 Quality fertilizer shifts those odds substantially:
 

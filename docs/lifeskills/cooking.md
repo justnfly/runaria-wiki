@@ -9,8 +9,8 @@ Every dish exists in Base, Silver and Golden. The difference is the **star quali
 | Grade | Needs | Restores | Buff duration |
 | --- | --- | --- | --- |
 | **Base** | Normal crops | Baseline | ×1 |
-| **Silver** | ⭐ Silver Star crop | About 10% more | **×2** |
-| **Golden** | ⭐ Golden Star crop | About 30% more | **×3** |
+| **Silver** | Silver Star crop | About 10% more | **×2** |
+| **Golden** | Golden Star crop | About 30% more | **×3** |
 
 Golden dishes also roll a **stronger effect**, not just a longer one. See [Farming](farming.md#star-quality) for how to get star crops reliably.
 

@@ -4,10 +4,10 @@
 
 | Craftsman | Handles |
 | --- | --- |
-| 🔨 **Velreal** | Every forge and workbench — all weapons and armor |
-| ⚒️ **Browntul** | Every refinery — turning raw ore into ingots |
-| 💎 **Kiko** | All gem crafting — catalysts, gemstones, enchant stones and ability stones |
-| 🍲 **Kate** | The Cooking Station |
+| **Velreal** | Every forge and workbench — all weapons and armor |
+| **Browntul** | Every refinery — turning raw ore into ingots |
+| **Kiko** | All gem crafting — catalysts, gemstones, enchant stones and ability stones |
+| **Kate** | The Cooking Station |
 
 Once a station is open, they all behave the same way: pick a recipe, and the craft goes into a **queue of up to ten items** that finishes on a timer. Click the queue slot to claim it.
 
