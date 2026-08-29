@@ -1,0 +1,99 @@
+site_name: Runaria Wiki
+site_description: Player guide to Runaria's classes, guilds, quests, dungeons, economy, and crafting.
+site_url: https://wiki.runariamc.com
+copyright: Runaria
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Alegreya Sans
+    code: JetBrains Mono
+  logo: assets/runaria-icon.png
+  favicon: assets/runaria-icon.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Progression:
+      - Classes & Class Tokens: progression/classes.md
+      - Traits: progression/traits.md
+  - Guilds & Quests:
+      - Guilds: guilds/guilds.md
+      - Quests & Quest Points: guilds/quests.md
+  - Adventure:
+      - Dungeons & Parties: adventure/dungeons.md
+      - Anomaly Zones: adventure/anomaly-zones.md
+      - Resource Drops: adventure/resource-drops.md
+      - PvP & Bounties: adventure/pvp.md
+      - Siege Zones: adventure/siege-zones.md
+  - Economy & Crafting:
+      - The Market: economy/market.md
+      - Crafting & Item Quality: economy/crafting.md
+      - Backpacks: economy/backpacks.md
+  - Automation:
+      - Bots: automation/bots.md
+  - The World:
+      - Living NPCs: world/npcs.md
+      - World Rules & Misc: world/world-rules.md
+  - Staff Reference:
+      - Admin Commands: reference/admin-commands.md
+      - Permissions: reference/permissions.md
+      - Placeholders: reference/placeholders.md
+      - Developer API: reference/api.md

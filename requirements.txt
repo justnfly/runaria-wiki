@@ -1,0 +1,5 @@
+# Pinned below MkDocs 2.0 on purpose: the Material team has warned that
+# MkDocs 2.0 removes the plugin system and rewrites theming with no
+# migration path. Unpinning will break this site's build.
+mkdocs>=1.6,<2
+mkdocs-material>=9.5,<10

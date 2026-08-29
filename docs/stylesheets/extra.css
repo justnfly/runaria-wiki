@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap");
+
+:root {
+  --rn-display: "Cinzel", Georgia, serif;
+
+  /* Brand palette, taken from the Runaria banner logo */
+  --rn-teal-deep: #122a26;
+  --rn-teal: #1a3b35;
+  --rn-gold: #e2a12a;
+  --rn-gold-bright: #f5c454;
+  --rn-leaf: #5aa84c;
+}
+
+/* Light scheme */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--rn-teal);
+  --md-primary-fg-color--light: #2a5349;
+  --md-primary-fg-color--dark: var(--rn-teal-deep);
+  --md-primary-bg-color: #f6f3e8;
+  --md-primary-bg-color--light: #f6f3e8b3;
+  --md-accent-fg-color: #a8741a;
+  --md-accent-fg-color--transparent: #a8741a1a;
+  --md-typeset-a-color: #1d6b4f;
+}
+
+/* Dark scheme */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--rn-teal-deep);
+  --md-primary-fg-color--light: var(--rn-teal);
+  --md-primary-fg-color--dark: #0c1e1b;
+  --md-primary-bg-color: #ece9dc;
+  --md-accent-fg-color: var(--rn-gold-bright);
+  --md-accent-fg-color--transparent: #f5c4541a;
+  --md-typeset-a-color: var(--rn-gold-bright);
+  --md-default-bg-color: #101917;
+  --md-default-bg-color--light: #101917b3;
+}
+
+/* Gold rule under section headings */
+.md-typeset h2 {
+  border-bottom: 1px solid var(--rn-gold);
+  padding-bottom: 0.25em;
+}
+
+/* Header logo: the banner art needs a little more room than the default */
+.md-header__button.md-logo img {
+  height: 1.6rem;
+  width: auto;
+}
+
+/* Home page hero logo */
+.rn-hero {
+  text-align: center;
+  margin: 0 0 1.5rem;
+}
+
+.rn-hero img {
+  max-width: 460px;
+  width: 100%;
+  height: auto;
+}
+
+/* Display face for page and section headings */
+.md-typeset h1,
+.md-typeset h2 {
+  font-family: var(--rn-display);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+/* Site title in the header */
+.md-header__title {
+  font-family: var(--rn-display);
+  letter-spacing: 0.04em;
+}
+
+/* Tables: readable, scrollable, aligned digits */
+.md-typeset table:not([class]) {
+  font-size: 0.75rem;
+}
+
+.md-typeset table:not([class]) th {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.md-typeset table:not([class]) td {
+  font-variant-numeric: tabular-nums;
+  vertical-align: top;
+}
+
+/* Keep commands from wrapping mid-token */
+.md-typeset table:not([class]) td code {
+  white-space: nowrap;
+}
+
+/* Lede paragraph directly under a page title */
+.md-typeset h1 + p {
+  font-size: 1.05em;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Collapsible reference blocks */
+.md-typeset details {
+  font-size: 0.8rem;
+}
+
+.md-typeset details > summary {
+  font-weight: 600;
+}
