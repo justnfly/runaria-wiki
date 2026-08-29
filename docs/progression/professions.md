@@ -1,6 +1,6 @@
 # Professions
 
-Ten professions run alongside your class, each capping at **level 200**. They are not a side activity — profession levels feed your main character level, and three of them directly control how good the things you make are.
+Professions run alongside your class, each capping at **level 200**. They are not a side activity — profession levels feed your main character level, and three of them directly control how good the things you make are.
 
 ## The professions
 
@@ -8,14 +8,14 @@ Ten professions run alongside your class, each capping at **level 200**. They ar
 | --- | --- |
 | **Mining** | Breaking vanilla ore blocks. Diamond and emerald are worth roughly four times coal; redstone and lapis about double. Silk Touch does not count. |
 | **Farming** | Harvesting crops **you planted**, plus melon, pumpkin, sugar cane, mushrooms, kelp, sea pickle and nether wart. |
-| **Fishing** | Catching fish. |
 | **Woodcutting** | Chopping logs. |
-| **Cooking** | Cooking Station recipes. Also trickles in passively from harvesting crops and catching fish. |
+| **Cooking** | Cooking Station recipes. Also trickles in passively from harvesting crops. |
 | **Alchemy** | Brewing potions. Splash, lingering, extended and upgraded variants are worth **four times** a plain potion — always finish your brews. |
 | **Blacksmithing** | Forge and workbench recipes. There is no vanilla source. |
 | **Gemforging** | Crafting at the Gem Station and Enchant Forge. Explicitly **not** vanilla enchanting. |
 | **Smelting** | Refinery recipes. |
-| **Combat** | Not yet active — no experience sources are wired up. |
+| **Combat** | Not yet active. |
+| **Fishing** | Not yet active — the fishing system isn't open. |
 
 ## Why they matter
 
@@ -44,7 +44,7 @@ Three difficulty curves, all running to level 200:
 
 | Curve | First level costs | Final level costs | Professions |
 | --- | --- | --- | --- |
-| **Gathering** | 85 XP | ~672,000 XP | Mining, Farming, Fishing, Combat |
+| **Gathering** | 85 XP | ~672,000 XP | Mining, Farming, Woodcutting |
 | **Processing** | 105 XP | ~840,000 XP | Cooking, Alchemy, Blacksmithing, Gemforging |
 | **Refining** | 140 XP | ~1,109,000 XP | Smelting |
 

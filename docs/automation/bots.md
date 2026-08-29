@@ -1,14 +1,14 @@
 # Bots
 
-Placeable mini-robots that automate the grind: farming, planting, collecting, fishing, cooking, and smelting. Six families across six rarities each — 36 bots in all.
+Placeable mini-robots that automate the grind: farming, planting, collecting, cooking, and smelting. Each family comes in six rarities, from Common up to Unique.
 
 ## Placing and managing
 
 - Place a bot like any item. It appears as a small robot — by default wearing the face of whoever placed it.
 - **Right-click** to open its menu. **Sneak + right-click** to pick it back up (empty its storage first).
 - Bots wander up to **6 blocks** from where you set them.
-- Each bot floats a status tag showing what it's doing with a countdown: *"Harvesting 4s"*, *"Fishing…"*, *"Planting 6s"*.
-- In the menu you can collect loot, **rename** the bot, **change its head** to any skin, install a fishing rod, and pick it up.
+- Each bot floats a status tag showing what it's doing with a countdown: *"Harvesting 4s"*, *"Planting 6s"*, *"Collecting…"*.
+- In the menu you can collect loot, **rename** the bot, **change its head** to any skin, and pick it up.
 
 !!! warning "Placement limits"
     You can have **10 bots** at once. Bots must be placed **inside your own [guild's claim](../guilds/guilds.md)**, and each guild has a shared cap of **5 + Mechanized Workforce upgrade level + (members ÷ 3)**.
@@ -45,21 +45,6 @@ Epic and above only. Stationary vacuums that pull ground items into storage, wit
 | Unique | 5×5 = 25 chunks |
 
 Seeds are handed to a nearby planter first. Farm bots inside a collector's coverage drop their haul for the collector instead of banking it themselves.
-
-## Fishing bots
-
-Install a fishing **rod** in the bot's menu and it catches exactly what that rod is capable of catching, on a timer.
-
-| Tier | Catch time |
-| --- | --- |
-| Common | 20.0s |
-| Uncommon | 16.0s |
-| Rare | 12.0s |
-| Epic | 9.0s |
-| Legendary | 6.0s |
-| Unique | 4.0s |
-
-Each bot's **weight** stat biases toward common, high-volume loot, while **luck** biases toward rarer catches. If you're offline, catch attempts are banked and resolved later.
 
 ## Cooking & smelting bots
 

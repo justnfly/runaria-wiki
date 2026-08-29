@@ -57,5 +57,5 @@ Higher tiers carry **longer cooldowns**, and dishes **share a cooldown within th
 ## Tips
 
 - **The Cooking Station shows you locked recipes.** Open it at level 1 and you can read the entire progression ahead of you — it doubles as its own roadmap.
-- Cooking experience also trickles in passively from **harvesting crops and catching fish**, so a farmer levels it without trying.
+- Cooking experience also trickles in passively from **harvesting crops**, so a farmer levels it without trying.
 - Save your Golden Star crops. They're the bottleneck on the highest tier of every dish.

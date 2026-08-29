@@ -42,11 +42,10 @@ Runaria is a full RPG server. The five systems you'll touch on day one:
 | Page | What's in it |
 | --- | --- |
 | [Farming & Seasons](lifeskills/farming.md) | 33 crops, the season cycle, and star quality |
-| [Fishing](lifeskills/fishing.md) | Rods, minigames, totems and weekend competitions |
 | [Cooking & Food](lifeskills/cooking.md) | 30 dishes, and why the cook's level is what matters |
 | [The Market](economy/market.md) | Server shop, auction house, and the player economy |
 | [Backpacks](economy/backpacks.md) | Portable storage that also buffs you |
-| [Bots](automation/bots.md) | Placeable robots that farm, fish, cook, and smelt for you |
+| [Bots](automation/bots.md) | Placeable robots that farm, collect, cook, and smelt for you |
 | [Living NPCs](world/npcs.md) | NPCs you talk to by typing — they remember you |
 | [World Rules & Misc](world/world-rules.md) | Locked dimensions, keys, item timers, Discord linking |
 
