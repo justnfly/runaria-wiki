@@ -47,17 +47,19 @@ Found only inside [Temple](dungeons.md#temple).
 
 ---
 
-## The Haunted cult
+## The cult
 
-Found only inside [Haunted](dungeons.md#haunted).
+A ritual-themed group you'll only meet somewhere well off the beaten path. If you've run into these, you found something.
 
 - **Cultist** — hits hardest of the group in raw melee.
 - **Berserk** — a hulking, slow-swinging brute.
 - **Monster** — a fast charging mass.
 - **Sorcerer** — mixes melee with ranged spellcasting.
 - **Lich** — a floating caster that keeps its distance, panics away from you, and leaves orbs behind.
-- **Valerius** — the boss. A heavily armoured swordsman who teleports unpredictably and tethers players to him.
-- **Parasitic Abomination** — the entrance guardian. Whipping tongue, tentacle sweeps, and it seeds exploding growths when wounded.
+
+Cultists and Berserks carry **Dark Soul Sand**; Monsters and Liches carry **Smouldering Ash**. Both are gemcrafting materials you can't get anywhere else.
+
+Something considerably worse than any of them waits at the end.
 
 ---
 

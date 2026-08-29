@@ -20,7 +20,7 @@ Runaria is a full RPG server. The five systems you'll touch on day one:
 
 | Page | What's in it |
 | --- | --- |
-| [Dungeons & Parties](adventure/dungeons.md) | Temple and Haunted, how to get in, and how parties work |
+| [Dungeons & Parties](adventure/dungeons.md) | What's down there, how parties work, and where to start |
 | [Bestiary](adventure/bestiary.md) | What's out there, where it lives, and what's worth killing |
 | [Anomaly Zones](adventure/anomaly-zones.md) | Timed zones that buff you — or spawn a boss |
 | [Resource Drops](adventure/resource-drops.md) | Meteors, crates, and Grand Drops falling into the world |

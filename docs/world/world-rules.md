@@ -33,7 +33,7 @@ The wooden **Quest Board** furniture you see in towns is the entrance to the [da
 
 ## Region names
 
-The area name in your HUD — *Haunted Dungeon*, *Sacred Garden* — is cosmetic, showing whichever region you're currently standing in. There's nothing to interact with.
+The area name in your HUD is cosmetic, showing whichever region you're currently standing in. There's nothing to interact with — though it's a decent way to tell when you've wandered somewhere notable.
 
 ## Twitch linking on Discord
 

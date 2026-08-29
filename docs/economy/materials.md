@@ -9,7 +9,7 @@ Runaria has its own metal economy sitting on top of vanilla mining. Twenty-eight
 
 ### Mining nodes
 
-The main source. **Mine 1 — the Sacred Garden** — is reachable with `/warp mine1`, and three kinds of node spawn there. Nodes are spread out deliberately, so you can't camp one spot.
+The main source. The **Sacred Garden** mine is where the first tier of ore is dug, and three kinds of node spawn there. Nodes are spread out deliberately, so you can't camp one spot.
 
 | Node | What it gives |
 | --- | --- |
@@ -114,8 +114,8 @@ These come from fighting, not mining, and they're what gate gem and enchant craf
 | **Teleport Dust, Deep Pearl, Void Crystal** | End Striders and Enderlings |
 | **Common Mana Stone** | Temple |
 | **Scorched Bone** | Temple |
-| **Dark Soul Sand** | Haunted — Cultists and Berserks |
-| **Smoldering Ash** | Haunted — Monsters and Liches |
+| **Dark Soul Sand** | Cultists and Berserks |
+| **Smoldering Ash** | Monsters and Liches |
 
 Manastones run their own ladder from Common all the way to Unique.
 
