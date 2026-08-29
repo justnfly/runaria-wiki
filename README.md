@@ -15,7 +15,6 @@ docs/
   economy/                      market, crafting, backpacks
   automation/                   bots
   world/                        npcs, world rules
-  reference/                    admin commands, permissions, placeholders, api
 ```
 
 To add a page, create the `.md` file and add it to the `nav:` list in `mkdocs.yml`.
@@ -54,7 +53,7 @@ mkdocs build
 
 ## Conventions
 
-- **Player pages** describe systems from the player's point of view. Keep commands in tables and mechanics in prose.
-- **Staff Reference** pages at the end of the nav hold admin commands, permission nodes, placeholders, and plugin APIs. Players never need them.
+- **This site is player-facing only.** Describe systems from the player's point of view — commands in tables, mechanics in prose.
+- **No staff material here.** Admin commands, permission nodes, placeholders, and plugin APIs live in the internal Claude artifact, not on the public wiki. Don't reintroduce them.
 - Some systems are deliberately **not** documented player-facing while they're out of alpha scope. Check `../WIKI-HANDOFF.md` before adding a new section.
 - Branding assets live in `docs/assets/`.

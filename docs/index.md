@@ -33,7 +33,4 @@ Runaria is a full RPG server. The five systems you'll touch on day one:
 
 ---
 
-!!! info "Staff and developers"
-    The [Staff Reference](reference/admin-commands.md) section at the bottom of the nav collects every admin command, permission node, placeholder, and plugin API. Players don't need it.
-
 *Values on this wiki reflect current server configuration and may be tuned as the server is balanced.*

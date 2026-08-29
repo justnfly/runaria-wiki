@@ -92,8 +92,3 @@ nav:
   - The World:
       - Living NPCs: world/npcs.md
       - World Rules & Misc: world/world-rules.md
-  - Staff Reference:
-      - Admin Commands: reference/admin-commands.md
-      - Permissions: reference/permissions.md
-      - Placeholders: reference/placeholders.md
-      - Developer API: reference/api.md
