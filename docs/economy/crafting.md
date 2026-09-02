@@ -39,9 +39,12 @@ When a bonus lands you get a chat line describing the lucky pour. **Ingots are n
 
 ## Cooking
 
-**Food is only as good as the cook.** Buff strength and duration scale with the *cook's* profession level, not the eater's. Each food has base, silver, and golden variants — golden versions have larger base values and longer durations.
+**Food is only as good as the cook.** A dish's strength and duration are calculated from the *cook's*
+Cooking level at the moment it's made and then stored in the item, so a meal from a master chef is
+exactly as strong in a beginner's hands.
 
-A golden salad cooked at level 72, for example, gives +4.1% Movement Speed for 261 seconds. The same recipe from a level 10 cook is much weaker.
+Ingredient quality stacks on top of that: cook with starred produce and the dish inherits it. Full
+detail in [Cooking](../cooking/index.md).
 
 ## Gemforging enchant stones
 

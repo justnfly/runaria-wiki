@@ -95,7 +95,12 @@ nav:
       - Backpacks: economy/backpacks.md
   - Life Skills:
       - Farming & Seasons: lifeskills/farming.md
-      - Cooking & Food: lifeskills/cooking.md
+  - Cooking:
+      - Cooking: cooking/index.md
+      - The Four Stations: cooking/stations.md
+      - The Recipe Book: cooking/recipe-book.md
+      - Knives & Tools: cooking/tools.md
+      - The Menu: cooking/menu.md
   - Automation:
       - Bots: automation/bots.md
   - The World:

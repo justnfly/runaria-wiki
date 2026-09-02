@@ -7,7 +7,7 @@
 | **Velreal** | Every forge and workbench — all weapons and armor |
 | **Browntul** | Every refinery — turning raw ore into ingots |
 | **Kiko** | All gem crafting — catalysts, gemstones, enchant stones and ability stones |
-| **Kate** | The Cooking Station |
+| **Kate** | Cooking — she sells the stations rather than opening one |
 
 Once a station is open, they all behave the same way: pick a recipe, and the craft goes into a **queue of up to ten items** that finishes on a timer. Click the queue slot to claim it.
 
@@ -36,7 +36,7 @@ Once a station is open, they all behave the same way: pick a recipe, and the cra
 | **Gem Station** | Kiko | Stat gemstones |
 | **Enchant Forge** | Kiko | Enchant Stones |
 | **Ability Gem Forge** | Kiko | Your class's ability stones |
-| **Cooking Station** | Kate | Buff foods |
+| **Cooking stations** | Kate | Food, buffs — [own section](../cooking/index.md) |
 
 ---
 
@@ -135,16 +135,15 @@ See [Gems & Enchanting](gems.md) for the detail.
 
 ---
 
-## The Cooking Station
+## Cooking stations
 
-*Talk to **Kate**.*
+*Talk to **Kate** to get started.*
 
-The only station gated primarily on **profession level** rather than materials, and it has the widest range on the server — recipes from level 1 all the way to 180.
+Cooking doesn't work like the stations on this page. Rather than opening a station at an NPC, you
+**buy the furniture and place it in your own kitchen** — four different stations, each doing a
+different job, and 120 dishes across them.
 
-Thirty dishes, each in three grades depending on the star quality of the crop you cook with. See [Cooking & Food](../lifeskills/cooking.md).
-
-!!! tip "It's its own roadmap"
-    Unlike most stations, the Cooking Station **shows you recipes you haven't unlocked yet**. Open it at level 1 and you can see the entire progression ahead of you.
+It's a large enough system to have [its own section](../cooking/index.md).
 
 ---
 
@@ -155,6 +154,6 @@ Thirty dishes, each in three grades depending on the star quality of the crop yo
 | **Smelting** | Refineries only |
 | **Blacksmithing** | Refineries, all forges, all workbenches |
 | **Gemforging** | Gem Station and Enchant Forge |
-| **Cooking** | Cooking Station only |
+| **Cooking** | The four [cooking stations](../cooking/stations.md) |
 
 Blacksmithing and Gemforging both award experience on the same ladder — more for higher-rarity work — so the rarity you're working at matters more than the number of crafts.

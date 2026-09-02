@@ -46,7 +46,8 @@ Quality fertilizer shifts those odds substantially:
 | Quality II | 55% / 30% / 15% |
 | Quality III | 40% / 40% / 20% |
 
-Star crops aren't just worth more — **Silver and Golden crops are the required ingredients for Silver and Golden dishes** at the [Cooking Station](cooking.md).
+Star crops aren't just worth more — **cooking carries their quality straight through to the plate**,
+and a handful of the best dishes won't accept anything less. See [Cooking](../cooking/index.md#ingredient-quality).
 
 ## Seeds and rarity
 

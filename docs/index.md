@@ -15,6 +15,7 @@ Runaria is a full RPG server. The five systems you'll touch on day one:
 - **[Quests](guilds/quests.md)** — a story line that teaches the server, plus a daily quest board and its own shop.
 - **[Guilds](guilds/guilds.md)** — free to create, and the gateway to land claims, upgrades, and guild contracts.
 - **[Professions](progression/professions.md)** — ten of them, and they level your character too.
+- **[Cooking](cooking/index.md)** — four stations, 120 dishes, and food that carries the cook's name.
 
 ## Fighting
 
@@ -42,10 +43,19 @@ Runaria is a full RPG server. The five systems you'll touch on day one:
 | Page | What's in it |
 | --- | --- |
 | [Farming & Seasons](lifeskills/farming.md) | 33 crops, the season cycle, and star quality |
-| [Cooking & Food](lifeskills/cooking.md) | 30 dishes, and why the cook's level is what matters |
 | [The Market](economy/market.md) | Server shop, auction house, and the player economy |
 | [Backpacks](economy/backpacks.md) | Portable storage that also buffs you |
 | [Bots](automation/bots.md) | Placeable robots that farm, collect, cook, and smelt for you |
+
+## Cooking
+
+| Page | What's in it |
+| --- | --- |
+| [Cooking](cooking/index.md) | How the profession works, and what a dish is worth |
+| [The Four Stations](cooking/stations.md) | Prep, chopping, stove and oven |
+| [The Recipe Book](cooking/recipe-book.md) | Discovering recipes, and trading them on paper |
+| [Knives & Tools](cooking/tools.md) | What each tool does at the board |
+| [The Menu](cooking/menu.md) | All 120 dishes, by rarity |
 | [Living NPCs](world/npcs.md) | NPCs you talk to by typing — they remember you |
 | [World Rules & Misc](world/world-rules.md) | Locked dimensions, keys, item timers, Discord linking |
 

@@ -46,16 +46,29 @@ Epic and above only. Stationary vacuums that pull ground items into storage, wit
 
 Seeds are handed to a nearby planter first. Farm bots inside a collector's coverage drop their haul for the collector instead of banking it themselves.
 
-## Cooking & smelting bots
+## Cooking bots
 
-Auto-craft a chosen recipe with **your profession scaling, quality stamps, and profession EXP** — exactly as if you'd made it by hand at the station.
+One bot per [cooking station](../cooking/stations.md) — prep, chopping, stove and oven — each in six
+rarities. Pick a recipe in the bot's menu, feed it ingredients by hand or by hopper, and it cooks with
+**your Cooking level and your ingredient quality**, exactly as if you'd stood there yourself.
 
-- **Cooking bots** discover every recipe with a food output. **Smelting bots** discover every recipe with an ingot output.
-- Pick a recipe in the bot's menu, then feed ingredients by hand or by hopper.
-- Craft time runs from 20.0s (Common) down to **4.0s (Unique)**.
+- **It has to stand next to a real station** of its own type, within about five blocks.
+- **One cook at a time.** The bot queues for the station like anyone else, and it loses to a player.
+- **It can only cook what you've discovered.** A bot is no way around the [recipe book](../cooking/recipe-book.md).
+- **Cooking experience comes back at half rate**, and is held for you if you're offline.
 
-!!! info "Rarity gates recipes"
-    A bot only offers recipes whose output tier is **at or below its own rarity**. A Common cooking bot can't make Legendary food.
+!!! info "Rarity buys reliability, not just speed"
+    Cheap bots are sloppy — they burn food, come up short, and fumble their cuts. Expensive ones
+    rarely do. Rarity also gates recipes: below Epic a bot is capped at its own rarity, while an Epic
+    or better bot can attempt anything up to Unique — but each tier above its own takes far longer.
+
+## Smelting bots
+
+Auto-craft a chosen smelting recipe with **your profession scaling, quality stamps, and profession
+EXP** — exactly as if you'd made it by hand at the station.
+
+- Smelting bots discover every recipe with an ingot output.
+- A bot only offers recipes whose output tier is **at or below its own rarity**.
 
 ## Hopper support
 

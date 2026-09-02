@@ -9,7 +9,7 @@ Runaria's NPCs hold real conversations. Right-click one and just type in chat �
 - NPCs with quests or services open a chooser first: **Talk**, **Quests**, or their service button. Quest hand-ins always work as normal.
 
 !!! tip "The craftsmen are NPCs too"
-    **Velreal** (forges and workbenches), **Browntul** (refineries), **Kiko** (gems and enchanting) and **Kate** (cooking) each open their [crafting stations](../economy/stations.md) from that same menu — and you can talk to them like anyone else while you're there.
+    **Velreal** (forges and workbenches), **Browntul** (refineries), **Kiko** (gems and enchanting) and **Kate** (cooking — she sells stations rather than opening one) each open their [crafting stations](../economy/stations.md) from that same menu — and you can talk to them like anyone else while you're there.
 
 ## They remember you
 

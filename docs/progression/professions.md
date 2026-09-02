@@ -9,7 +9,7 @@ Professions run alongside your class, each capping at **level 200**. They are no
 | **Mining** | Breaking vanilla ore blocks. Diamond and emerald are worth roughly four times coal; redstone and lapis about double. Silk Touch does not count. |
 | **Farming** | Harvesting crops **you planted**, plus melon, pumpkin, sugar cane, mushrooms, kelp, sea pickle and nether wart. |
 | **Woodcutting** | Chopping logs. |
-| **Cooking** | Cooking Station recipes. Also trickles in passively from harvesting crops. |
+| **Cooking** | Cooking at the four [cooking stations](../cooking/stations.md). Also trickles in passively from harvesting crops. |
 | **Alchemy** | Brewing potions. Splash, lingering, extended and upgraded variants are worth **four times** a plain potion — always finish your brews. |
 | **Blacksmithing** | Forge and workbench recipes. There is no vanilla source. |
 | **Gemforging** | Crafting at the Gem Station and Enchant Forge. Explicitly **not** vanilla enchanting. |
@@ -36,7 +36,7 @@ Professions run alongside your class, each capping at **level 200**. They are no
 
 **Gemforging controls enchant power.** The level an Enchant Stone rolls scales with your Gemforging. Below 75 you're capped well under an enchant's maximum; at 75 every tier becomes reachable, and past that the odds keep shifting toward high rolls all the way to 200.
 
-**Cooking buffs scale with the cook, not the eater.** A dish made by a high-level chef is stronger and lasts longer in *anyone's* hands. This is the single best argument for a dedicated chef in your guild.
+**Cooking buffs scale with the cook, not the eater.** A dish made by a high-level chef is stronger and lasts longer in *anyone's* hands. This is the single best argument for a dedicated chef in your guild. Cooking level also unlocks higher-rarity recipes and sharpens the timer at a stove or oven — see [Cooking](../cooking/index.md).
 
 ## How fast they level
 
