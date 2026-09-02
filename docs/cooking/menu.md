@@ -23,6 +23,10 @@ This page deliberately lists **no ingredients**. Finding those out is what the
 | **Legendary** | 65 | 14 |
 | **Unique** | 100 | 5 |
 
+!!! note "Where did the drinks go?"
+    Beer, Wine, the juices, shakes and teas are no longer stove recipes. Drinks are now
+    **brewed freeform at the Drink Machine** — see [Brewing](brewing.md).
+
 ## Common
 
 Everyday food. Most needs no Cooking level at all, so this is where everybody starts.
@@ -36,13 +40,9 @@ Everyday food. Most needs no Cooking level at all, so this is where everybody st
 | **Garden Veggie Skewer** | Prep | +6 Health<br>+30 Mana | +5.2% PvE Damage (1m 30s) | 4 |
 | **Garlic Corn Bowl** | Prep | +6 Health<br>+30 Mana | +3.2% Additional Experience (1m 30s) | 4 |
 | **Onigiri** | Prep | +6 Health<br>+30 Mana | +1.6% Physical Damage (1m 30s) | 4 |
-| **Banana Shake** | Chopping | +6 Health<br>+30 Mana | +3.2 Block Power (1m 30s) | 4 |
-| **Carrot Juice** | Chopping | +6 Health<br>+30 Mana | +1.6 Luck (1m 30s) | 4 |
 | **Chili Berry Sauce** | Chopping | +6 Health<br>+30 Mana | +4% Attack Damage (1m 30s) | 4 |
-| **Grape Cucumber Jam Toast** | Chopping | +6 Health<br>+30 Mana | +2.4% Movement Speed (1m 30s) | 4 |
-| **Orange Juice** | Chopping | +6 Health<br>+30 Mana | +1.6 Health Regeneration (1m 30s) | 4 |
+| **Grape Cucumber Jam Toast** | Prep | +6 Health<br>+30 Mana | +2.4% Movement Speed (1m 30s) | 4 |
 | **Strawberry** | Chopping | +6 Health<br>+30 Mana | +4 Max Health (1m 30s) | 4 |
-| **Tomato Shake** | Chopping | +6 Health<br>+30 Mana | +2% PvE Damage (1m 30s) | 4 |
 | **Chinese Cabbage Stir Fry** | Stove | +6 Health<br>+30 Mana | +3.2% PvE Damage (1m 30s) | 4 |
 | **Cooked Frog Leg** | Stove | +6 Health<br>+30 Mana | +3.2 Jump Strength (1m 30s) | 4 |
 | **Fried Egg** | Stove | +6 Health<br>+30 Mana | +2% Attack Speed (1m 30s) | 4 |
@@ -72,7 +72,6 @@ Still open to a beginner, but a step up in what it restores and how long its buf
 | --- | --- | --- | --- | --- |
 | **Bacon Sandwich** | Prep | +14 Health<br>+65 Mana | +4.5% Physical Damage (5m) | 8 |
 | **Salmon Nigiri** | Prep | +14 Health<br>+65 Mana | +5% Critical Strike Power (5m) | 8 |
-| **Beer** | Stove | +14 Health<br>+65 Mana | +1.5% Movement Speed (5m) | 8 |
 | **Cooked Bacon** | Stove | +14 Health<br>+65 Mana | +3% Physical Damage (5m) | 8 |
 | **Cooked Chicken Thigh** | Stove | +14 Health<br>+65 Mana | +3.5% Attack Speed (5m) | 8 |
 | **Cooked Sausage** | Stove | +14 Health<br>+65 Mana | +3% Physical Damage (5m) | 8 |
@@ -83,7 +82,6 @@ Still open to a beginner, but a step up in what it restores and how long its buf
 | **Soup** | Stove | +14 Health<br>+65 Mana | +3 Armor (5m) | 8 |
 | **Takoyaki** | Stove | +14 Health<br>+65 Mana | +7 Max Health (5m) | 8 |
 | **Warped Fungus Stew** | Stove | +14 Health<br>+65 Mana | +4 Max Health (5m) | 8 |
-| **Wine** | Stove | +14 Health<br>+65 Mana | +1.5% Movement Speed (5m) | 8 |
 | **Baguette** | Oven | +14 Health<br>+65 Mana | +2% Physical Damage (5m) | 8 |
 | **Chocolate Bar** | Oven | +14 Health<br>+65 Mana | +1.5% Movement Speed (5m) | 8 |
 | **Chocolate Donut** | Oven | +14 Health<br>+65 Mana | +1.5% Movement Speed (5m) | 8 |
@@ -169,7 +167,6 @@ Always two stats, and worth the walk to a good kitchen. Several want starred pro
 | Dish | Station | Restores | Grants | Cook EXP |
 | --- | --- | --- | --- | --- |
 | **Lemon Avocado Fish Plate** | Prep | +72 Health<br>+285 Mana | +15.6% Critical Strike Chance (15m)<br>+26 Max Health (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m) | 40 |
-| **Blueberry Cucumber Tea** | Stove | +72 Health<br>+285 Mana | +7.8% Movement Speed (15m)<br>+5.2 Health Regeneration (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m) | 40 |
 | **Mango Flame Curry** | Stove | +72 Health<br>+285 Mana | +10.4% Attack Speed (15m)<br>+5.2% Physical Damage (15m)<br>Saturation II (35s)<br>+12% Dungeon Party EXP (30m)<br>+8% Profession EXP (30m) | 40 |
 | **Orange Avocado Honey Roast** | Stove | +72 Health<br>+285 Mana | +26 Max Health (15m)<br>+5.2% Damage Reduction (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m) | 40 |
 | **Carambola Jelly** | Oven | +72 Health<br>+285 Mana | +7.8% Cooldown Reduction (15m)<br>+7.8% Skill Damage (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m) | 40 |
@@ -195,7 +192,6 @@ Five dishes, and every one is a project. They demand golden-star produce and a m
 | **Lychee Battle Dessert** | Prep | +110 Health<br>+430 Mana | +10.2% Spell Critical Strike Chance (20m)<br>+6.8% Movement Speed (20m)<br>+6.8% Physical Damage (20m)<br>+13.6 Sneaking Speed (20m)<br>Saturation III (55s)<br>+20% Dungeon Party EXP (30m)<br>+15% Profession EXP (30m)<br>+10% Trait Quality (30m) | 70 |
 | **Redpacket Golden Banquet** | Prep | +110 Health<br>+430 Mana | +13.6% Physical Damage (20m)<br>+13.6% Attack Speed (20m)<br>+27.2 Max Health (20m)<br>+6.8 Health Regeneration (20m)<br>+3.4 Luck (20m)<br>Saturation III (55s)<br>+20% Dungeon Party EXP (30m)<br>+15% Profession EXP (30m)<br>+10% Trait Quality (30m) | 70 |
 | **Durian War Stew** | Stove | +110 Health<br>+430 Mana | +20.4% Undead Damage (20m)<br>+6.8% Physical Damage (20m)<br>+10.2 Knockback Resistance (20m)<br>Saturation III (55s)<br>+20% Dungeon Party EXP (30m)<br>+15% Profession EXP (30m)<br>+10% Trait Quality (30m) | 70 |
-| **Goji Avocado Recovery Tea** | Stove | +110 Health<br>+430 Mana | +34 Max Health (20m)<br>+6.8% Damage Reduction (20m)<br>+6.8% Lifesteal (20m)<br>+10.2 Health Regeneration (20m)<br>Saturation III (55s)<br>+20% Profession EXP (30m)<br>+15% Dungeon Party EXP (30m)<br>+10% Trait Quality (30m) | 70 |
 
 ## Prepared ingredients
 

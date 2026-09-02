@@ -1,7 +1,8 @@
 # The Four Stations
 
-Cooking happens at furniture you own and place yourself. There are four stations, each doing a
-different job, and most dishes pass through more than one of them.
+Cooking happens at furniture you own and place yourself. The classic kitchen is four stations,
+each doing a different job, and most dishes pass through more than one of them — with the two
+brewing machines standing beside them as their own craft.
 
 Buy them from the **Cooking** section of the server shop, or ask **Kate** — she keeps them in stock.
 
@@ -11,6 +12,11 @@ Buy them from the **Cooking** section of the server shop, or ask **Kate** — sh
 | **Chopping Station** | Dicing and juicing raw produce | 15,000 |
 | **Kitchen Stove** | Timed cooking: stews, fries, curries, meats | 50,000 |
 | **Kitchen Oven** | Timed baking: breads, cakes, pastries, jellies | 85,000 |
+| **Drink Machine** | Freeform brewing — no recipes at all; see [Brewing](brewing.md) | 40,000 |
+| **Alchemy Station** | Potions over the same system; see [Alchemy](alchemy.md) | 60,000 |
+
+The four cooking stations below follow recipes. The two brewing machines are a different world —
+they have **no recipes** and their own pages.
 
 ## Prep Station
 

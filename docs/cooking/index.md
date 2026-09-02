@@ -17,6 +17,10 @@ making the same recipe do not get the same item.
 3. **Cook.** Each dish is made at one particular station.
 4. **Eat it, or sell it.** Cooked food is traded through the market, and good food sells.
 
+And when you're ready to pour instead of plate: **[Brewing](brewing.md)** makes drinks with no
+recipes at all, and **[Alchemy](alchemy.md)** turns the same knowledge into potions. Food, drink
+and potion buffs all stack — the fully-buffed run uses all three.
+
 ## What a dish gives you
 
 Every dish restores **hunger**, **saturation**, **health** and **mana**. How much depends on its
