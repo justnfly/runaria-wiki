@@ -2,98 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://wiki.runariamc.com/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/adventure/anomaly-zones/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/adventure/bestiary/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/adventure/dungeons/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/adventure/pvp/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/adventure/resource-drops/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/adventure/siege-zones/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/automation/bots/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.runariamc.com/cooking/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.runariamc.com/cooking/menu/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.runariamc.com/cooking/recipe-book/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.runariamc.com/cooking/stations/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.runariamc.com/cooking/tools/</loc>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/economy/backpacks/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/economy/crafting/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/economy/gems/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/economy/market/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/economy/materials/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/economy/stations/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/guilds/guilds/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/guilds/quests/</loc>
-         <lastmod>2026-08-29</lastmod>
-    </url>
-    <url>
-         <loc>https://wiki.runariamc.com/lifeskills/cooking/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/lifeskills/farming/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/progression/attributes/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/progression/classes/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/progression/professions/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/progression/traits/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/world/npcs/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
     <url>
          <loc>https://wiki.runariamc.com/world/world-rules/</loc>
-         <lastmod>2026-08-29</lastmod>
+         <lastmod>2026-09-02</lastmod>
     </url>
 </urlset>
