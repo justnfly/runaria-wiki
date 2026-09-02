@@ -1323,17 +1323,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-read-this" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How to read this
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#common" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1655,17 +1644,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-read-this" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How to read this
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#common" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1760,16 +1738,20 @@
 
 
 <h1 id="the-menu">The Menu<a class="headerlink" href="#the-menu" title="Permanent link">&para;</a></h1>
-<p>Every dish in Runaria — <strong>120</strong> of them, across four stations. This page is the catalogue:
-what exists, what it's worth, and where it's made. It deliberately does <strong>not</strong> list ingredients.
-Finding those out is what the <a href="../recipe-book/">Recipe Book</a> is for.</p>
+<p>Every dish in Runaria — <strong>120</strong> of them — and exactly what each one does.</p>
+<p>This page deliberately lists <strong>no ingredients</strong>. Finding those out is what the
+<a href="../recipe-book/">Recipe Book</a> is for.</p>
 <div class="admonition tip">
 <p class="admonition-title">New to cooking?</p>
 <p>Talk to <strong>Kate</strong> in Sylari. She'll set you up with a station and point you at your first recipes.</p>
 </div>
-<h2 id="how-to-read-this">How to read this<a class="headerlink" href="#how-to-read-this" title="Permanent link">&para;</a></h2>
-<p>Rarity decides how much a dish restores, how strong its buff is, and how long that buff runs.
-The level shown is the <strong>Cooking level</strong> you need before the recipe will work at all.</p>
+<div class="admonition note">
+<p class="admonition-title">These are base values</p>
+<p>Every figure below is the dish at <strong>Cooking level 1, made with ordinary produce</strong> — the floor,
+not the ceiling. Your own plate is stronger: effects scale with the cook's level and with the
+star quality of what went in, and the item's own lore always shows the real numbers for <em>that</em>
+plate. See <a href="../#the-cook-is-baked-into-the-dish">Cooking</a>.</p>
+</div>
 <table>
 <thead>
 <tr>
@@ -1812,43 +1794,943 @@ The level shown is the <strong>Cooking level</strong> you need before the recipe
 </tbody>
 </table>
 <h2 id="common">Common<a class="headerlink" href="#common" title="Permanent link">&para;</a></h2>
-<p>Everyday food. Most of it needs no Cooking level at all, so this is where everybody starts.</p>
+<p>Everyday food. Most needs no Cooking level at all, so this is where everybody starts.</p>
 <p><em>No level requirement.</em></p>
-<p><strong>Prep Station</strong> — Cabbage Tomato Wrap, Garden Sandwich, Garden Veggie Skewer, Garlic Corn Bowl, Onigiri<br />
-<strong>Chopping Station</strong> — Banana Shake, Carrot Juice, Chili Berry Sauce, Grape Cucumber Jam Toast, Orange Juice, Strawberry, Tomato Shake<br />
-<strong>Kitchen Stove</strong> — Chinese Cabbage Stir Fry, Cooked Frog Leg, Fried Egg, Roasted Corn Pepper Mix<br />
-<strong>Kitchen Oven</strong> — Chocolate Cake, Chocolate Cupcake, Chocolate Ring, Chocolate Roll, Chocolate Slab, Cocoa Drop, Cocoa Macaroon, Crusty Loaf, Glazed Donut, Honey Loaf, Lemon Drop, Plum Drop, Strawberry Drop, Toast  </p>
+<table>
+<thead>
+<tr>
+<th>Dish</th>
+<th>Station</th>
+<th>Restores</th>
+<th>Grants</th>
+<th>Cook EXP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cabbage Tomato Wrap</strong></td>
+<td>Prep</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+2% PvE Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Garden Sandwich</strong></td>
+<td>Prep</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+2% PvE Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Garden Veggie Skewer</strong></td>
+<td>Prep</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+5.2% PvE Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Garlic Corn Bowl</strong></td>
+<td>Prep</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+3.2% Additional Experience (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Onigiri</strong></td>
+<td>Prep</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+1.6% Physical Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Banana Shake</strong></td>
+<td>Chopping</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+3.2 Block Power (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Carrot Juice</strong></td>
+<td>Chopping</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+1.6 Luck (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Chili Berry Sauce</strong></td>
+<td>Chopping</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+4% Attack Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Grape Cucumber Jam Toast</strong></td>
+<td>Chopping</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+2.4% Movement Speed (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Orange Juice</strong></td>
+<td>Chopping</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+1.6 Health Regeneration (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Strawberry</strong></td>
+<td>Chopping</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+4 Max Health (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Tomato Shake</strong></td>
+<td>Chopping</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+2% PvE Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Chinese Cabbage Stir Fry</strong></td>
+<td>Stove</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+3.2% PvE Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Cooked Frog Leg</strong></td>
+<td>Stove</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+3.2 Jump Strength (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Fried Egg</strong></td>
+<td>Stove</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+2% Attack Speed (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Roasted Corn Pepper Mix</strong></td>
+<td>Stove</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+3.2% PvE Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Chocolate Cake</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+5.6 Max Health (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Chocolate Cupcake</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+5.6 Max Health (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Chocolate Ring</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+1.2% Movement Speed (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Chocolate Roll</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+2.4 Max Health (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Chocolate Slab</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+1.2% Movement Speed (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Cocoa Drop</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+1.2% Movement Speed (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Cocoa Macaroon</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+1.2% Movement Speed (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Crusty Loaf</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+1.6% Physical Damage (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Glazed Donut</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+5.6 Max Health (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Honey Loaf</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+5.6 Max Health (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Lemon Drop</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+2.4% Critical Strike Chance (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Plum Drop</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+5.6 Max Mana (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Strawberry Drop</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+4 Max Health (1m 30s)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Toast</strong></td>
+<td>Oven</td>
+<td>+6 Health<br>+30 Mana</td>
+<td>+8 Max Health (1m 30s)</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
 <h2 id="uncommon">Uncommon<a class="headerlink" href="#uncommon" title="Permanent link">&para;</a></h2>
 <p>Still open to a beginner, but a step up in what it restores and how long its buff lasts.</p>
 <p><em>No level requirement.</em></p>
-<p><strong>Prep Station</strong> — Bacon Sandwich, Salmon Nigiri<br />
-<strong>Kitchen Stove</strong> — Beer, Cooked Bacon, Cooked Chicken Thigh, Cooked Sausage, French Fries, Glow Berry Soup, Hop Braised Garden Stew, Pasta, Soup, Takoyaki, Warped Fungus Stew, Wine<br />
-<strong>Kitchen Oven</strong> — Baguette, Chocolate Bar, Chocolate Donut, Chocolate Ice Cream, Cream Pudding, Dango, Honey Toast, Melonpan, Milk Loaf, Mochi, Olive Flatbread, Pancake, Peach Cake, Strawberry Cake, Strawberry Roll, Waffle  </p>
+<table>
+<thead>
+<tr>
+<th>Dish</th>
+<th>Station</th>
+<th>Restores</th>
+<th>Grants</th>
+<th>Cook EXP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Bacon Sandwich</strong></td>
+<td>Prep</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+4.5% Physical Damage (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Salmon Nigiri</strong></td>
+<td>Prep</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+5% Critical Strike Power (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Beer</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+1.5% Movement Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Cooked Bacon</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+3% Physical Damage (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Cooked Chicken Thigh</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+3.5% Attack Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Cooked Sausage</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+3% Physical Damage (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>French Fries</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+2.5% Attack Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Glow Berry Soup</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+3 Oxygen Bonus (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Hop Braised Garden Stew</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+3 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Pasta</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+2% Physical Damage (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Soup</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+3 Armor (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Takoyaki</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+7 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Warped Fungus Stew</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+4 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Wine</strong></td>
+<td>Stove</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+1.5% Movement Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Baguette</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+2% Physical Damage (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Chocolate Bar</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+1.5% Movement Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Chocolate Donut</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+1.5% Movement Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Chocolate Ice Cream</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+1.5% Movement Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Cream Pudding</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+1.5% Movement Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Dango</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+1.5% Movement Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Honey Toast</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+10 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Melonpan</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+7 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Milk Loaf</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+7 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Mochi</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+1.5% Movement Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Olive Flatbread</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+2.5% Attack Speed (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Pancake</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+6 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Peach Cake</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+13 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Strawberry Cake</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+12 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Strawberry Roll</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+8 Max Health (5m)</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Waffle</strong></td>
+<td>Oven</td>
+<td>+14 Health<br>+65 Mana</td>
+<td>+4% Block Break Speed (5m)</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
 <h2 id="rare">Rare<a class="headerlink" href="#rare" title="Permanent link">&para;</a></h2>
 <p>The first real gate. Two stats sometimes, or one that lasts noticeably longer.</p>
 <p><em>Requires Cooking 15.</em></p>
-<p><strong>Prep Station</strong> — Berry Honey Yogurt Bowl, Burger, Cucumber Pepper Salad, Kebab, Sushi, Taco<br />
-<strong>Kitchen Stove</strong> — Cherry Garden Porridge, Cooling Cucumber Soup, Gyoza, Gyudon, Karaage, Tonkatsu, Yakitori<br />
-<strong>Kitchen Oven</strong> — Blackberry Jelly, Blueberry Cake, Blueberry Drop, Blueberry Ice Cream, Cherry Cake, Cherry Roll, Crossaint, Fish Pastry, Honey Waffle, Pancake with Chocolate, Pancake with Honey, Plum Cucumber Cake Slice  </p>
+<table>
+<thead>
+<tr>
+<th>Dish</th>
+<th>Station</th>
+<th>Restores</th>
+<th>Grants</th>
+<th>Cook EXP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Berry Honey Yogurt Bowl</strong></td>
+<td>Prep</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+5.2 Max Absorption (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Burger</strong></td>
+<td>Prep</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+5.2% Physical Damage (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Cucumber Pepper Salad</strong></td>
+<td>Prep</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+6.5% Movement Speed (7m)<br>+5.2% PvE Damage (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Kebab</strong></td>
+<td>Prep</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+8.5% PvE Damage (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Sushi</strong></td>
+<td>Prep</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+6.5% Critical Strike Chance (7m)<br>+3.9% Parry Cooldown Reduction (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Taco</strong></td>
+<td>Prep</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+5.2% Physical Damage (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Cherry Garden Porridge</strong></td>
+<td>Stove</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+3.9 Max Health (7m)<br>+2.6 Health Regeneration (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Cooling Cucumber Soup</strong></td>
+<td>Stove</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+3.9% Movement Speed (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Gyoza</strong></td>
+<td>Stove</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+5.2% Weapon Damage (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Gyudon</strong></td>
+<td>Stove</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+5.2% Physical Damage (7m)<br>+15.6 Max Health (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Karaage</strong></td>
+<td>Stove</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+7.8% Attack Speed (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Tonkatsu</strong></td>
+<td>Stove</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+5.2% Weapon Damage (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Yakitori</strong></td>
+<td>Stove</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+5.2% PvE Damage (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Blackberry Jelly</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+2% Movement Speed (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Blueberry Cake</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+9.1 Max Health (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Blueberry Drop</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+2% Movement Speed (7m)<br>+2.6 Health Regeneration (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Blueberry Ice Cream</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+2% Movement Speed (7m)<br>+2.6 Health Regeneration (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Cherry Cake</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+9.1 Max Health (7m)<br>+2.6 Health Regeneration (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Cherry Roll</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+3.9 Max Health (7m)<br>+2.6 Health Regeneration (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Crossaint</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+14.3 Max Health (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Fish Pastry</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+3.9% Critical Strike Chance (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Honey Waffle</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+5.2% Block Break Speed (7m)<br>+7.8 Max Health (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Pancake with Chocolate</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+7.8 Max Health (12m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Pancake with Honey</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+7.8 Max Health (7m)<br>+2% Movement Speed (7m)</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Plum Cucumber Cake Slice</strong></td>
+<td>Oven</td>
+<td>+28 Health<br>+120 Mana</td>
+<td>+3.9% Movement Speed (12m)</td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
 <h2 id="epic">Epic<a class="headerlink" href="#epic" title="Permanent link">&para;</a></h2>
-<p>Stronger buffs, longer timers, and the first dishes that grant a Saturation effect on top.</p>
+<p>Stronger buffs, longer timers, and the first dishes that grant Saturation on top.</p>
 <p><em>Requires Cooking 35.</em></p>
-<p><strong>Prep Station</strong> — Avocado Rice Bowl, Hotdog, Kiwi Ranger Salad, Papaya Guardian Bowl, Pineapple Avocado Skewer<br />
-<strong>Kitchen Stove</strong> — Eggplant Avocado Stew, Japanese Curry, Okonomiyaki, Shabu Shabu, Tomato Soup<br />
-<strong>Kitchen Oven</strong> — Coconut Mana Pudding, Goji Drop, Muffin, Pizza, Raspberry Cupcake, Raspberry Jelly  </p>
+<table>
+<thead>
+<tr>
+<th>Dish</th>
+<th>Station</th>
+<th>Restores</th>
+<th>Grants</th>
+<th>Cook EXP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Avocado Rice Bowl</strong></td>
+<td>Prep</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+23.4 Max Health (10m)<br>+3.6% Damage Reduction (10m)<br>Saturation II (20s)<br>+8% Class EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Hotdog</strong></td>
+<td>Prep</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+7.2% PvE Damage (10m)<br>+5.4% Physical Damage (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Kiwi Ranger Salad</strong></td>
+<td>Prep</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+5.4% Dodge Cooldown Reduction (10m)<br>+3.6% Movement Speed (10m)<br>Saturation II (20s)<br>+8% Class EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Papaya Guardian Bowl</strong></td>
+<td>Prep</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+10.8 Max Mana (10m)<br>+3.6% Movement Speed (10m)<br>Saturation II (20s)<br>+8% Trait Quality (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Pineapple Avocado Skewer</strong></td>
+<td>Prep</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+27 Max Health (10m)<br>+3.6% Damage Reduction (10m)<br>Saturation II (20s)<br>+8% Class EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Eggplant Avocado Stew</strong></td>
+<td>Stove</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+25.2 Max Health (10m)<br>+3.6% Damage Reduction (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Japanese Curry</strong></td>
+<td>Stove</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+7.2% Physical Damage (10m)<br>+14.4 Max Health (10m)<br>Saturation II (20s)<br>+8% Dungeon Party EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Okonomiyaki</strong></td>
+<td>Stove</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+5.4% Physical Damage (10m)<br>+12.6 Max Health (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Shabu Shabu</strong></td>
+<td>Stove</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+7.2% Physical Damage (10m)<br>+3.6% Movement Speed (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Tomato Soup</strong></td>
+<td>Stove</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+7.2% PvE Damage (10m)<br>+5.4% Projectile Damage (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Coconut Mana Pudding</strong></td>
+<td>Oven</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+18 Max Mana (10m)<br>+2.7% Movement Speed (10m)<br>Saturation II (20s)<br>+8% Trait Quality (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Goji Drop</strong></td>
+<td>Oven</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+3.6% Lifesteal (10m)<br>+2.7% Movement Speed (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Muffin</strong></td>
+<td>Oven</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+12.6 Max Health (10m)<br>+2.7% Movement Speed (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Pizza</strong></td>
+<td>Oven</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+7.2% PvE Damage (10m)<br>+7.2% Additional Experience (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Raspberry Cupcake</strong></td>
+<td>Oven</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+23.4 Max Health (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Raspberry Jelly</strong></td>
+<td>Oven</td>
+<td>+48 Health<br>+190 Mana</td>
+<td>+10.8 Max Health (10m)<br>+2.7% Movement Speed (10m)<br>Saturation II (20s)<br>+8% Profession EXP (15m)</td>
+<td>24</td>
+</tr>
+</tbody>
+</table>
 <h2 id="legendary">Legendary<a class="headerlink" href="#legendary" title="Permanent link">&para;</a></h2>
-<p>Always two stats, and always worth the walk to a good kitchen. Several want starred produce.</p>
+<p>Always two stats, and worth the walk to a good kitchen. Several want starred produce.</p>
 <p><em>Requires Cooking 65.</em></p>
-<p><strong>Prep Station</strong> — Lemon Avocado Fish Plate<br />
-<strong>Kitchen Stove</strong> — Blueberry Cucumber Tea, Mango Flame Curry, Orange Avocado Honey Roast<br />
-<strong>Kitchen Oven</strong> — Carambola Jelly, Coconut Macaroon, Guava Jelly, Guava Spirit Tart, Kiwi Roll, Lychee Jelly, Mango Cake, Mango Ice Cream, Papaya Jelly, Raspberry Cucumber Tart  </p>
+<table>
+<thead>
+<tr>
+<th>Dish</th>
+<th>Station</th>
+<th>Restores</th>
+<th>Grants</th>
+<th>Cook EXP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Lemon Avocado Fish Plate</strong></td>
+<td>Prep</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+15.6% Critical Strike Chance (15m)<br>+26 Max Health (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Blueberry Cucumber Tea</strong></td>
+<td>Stove</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+7.8% Movement Speed (15m)<br>+5.2 Health Regeneration (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Mango Flame Curry</strong></td>
+<td>Stove</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+10.4% Attack Speed (15m)<br>+5.2% Physical Damage (15m)<br>Saturation II (35s)<br>+12% Dungeon Party EXP (30m)<br>+8% Profession EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Orange Avocado Honey Roast</strong></td>
+<td>Stove</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+26 Max Health (15m)<br>+5.2% Damage Reduction (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Carambola Jelly</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+7.8% Cooldown Reduction (15m)<br>+7.8% Skill Damage (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Coconut Macaroon</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+26 Max Mana (15m)<br>+3.9% Movement Speed (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Guava Jelly</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+10.4% Magical Damage (15m)<br>+3.9% Movement Speed (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Guava Spirit Tart</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+10.4% Magical Damage (15m)<br>+3.9% Movement Speed (15m)<br>Saturation II (35s)<br>+12% Trait Quality (30m)<br>+8% Profession EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Kiwi Roll</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+7.8% Dodge Cooldown Reduction (15m)<br>+10.4 Dodge Rating (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Lychee Jelly</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+7.8% Spell Critical Strike Chance (15m)<br>+3.9% Movement Speed (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Mango Cake</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+10.4% Attack Speed (15m)<br>+18.2 Max Health (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Mango Ice Cream</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+10.4% Attack Speed (15m)<br>+3.9% Movement Speed (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Papaya Jelly</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+15.6 Max Mana (15m)<br>+3.9% Movement Speed (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>Raspberry Cucumber Tart</strong></td>
+<td>Oven</td>
+<td>+72 Health<br>+285 Mana</td>
+<td>+23.4 Max Health (15m)<br>+7.8% Movement Speed (15m)<br>Saturation II (35s)<br>+12% Profession EXP (30m)<br>+8% Dungeon Party EXP (30m)</td>
+<td>40</td>
+</tr>
+</tbody>
+</table>
 <h2 id="unique">Unique<a class="headerlink" href="#unique" title="Permanent link">&para;</a></h2>
-<p>Five dishes, and every one of them is a project. They demand golden-star produce and a master cook.</p>
+<p>Five dishes, and every one is a project. They demand golden-star produce and a master cook.</p>
 <p><em>Requires Cooking 100.</em></p>
-<p><strong>Prep Station</strong> — Carambola Star Feast, Lychee Battle Dessert, Redpacket Golden Banquet<br />
-<strong>Kitchen Stove</strong> — Durian War Stew, Goji Avocado Recovery Tea  </p>
+<table>
+<thead>
+<tr>
+<th>Dish</th>
+<th>Station</th>
+<th>Restores</th>
+<th>Grants</th>
+<th>Cook EXP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Carambola Star Feast</strong></td>
+<td>Prep</td>
+<td>+110 Health<br>+430 Mana</td>
+<td>+10.2% Cooldown Reduction (20m)<br>+10.2% Skill Damage (20m)<br>+6.8% Movement Speed (20m)<br>+6.8% Physical Damage (20m)<br>+13.6 Sneaking Speed (20m)<br>Saturation III (55s)<br>+20% Dungeon Party EXP (30m)<br>+15% Profession EXP (30m)<br>+10% Trait Quality (30m)</td>
+<td>70</td>
+</tr>
+<tr>
+<td><strong>Lychee Battle Dessert</strong></td>
+<td>Prep</td>
+<td>+110 Health<br>+430 Mana</td>
+<td>+10.2% Spell Critical Strike Chance (20m)<br>+6.8% Movement Speed (20m)<br>+6.8% Physical Damage (20m)<br>+13.6 Sneaking Speed (20m)<br>Saturation III (55s)<br>+20% Dungeon Party EXP (30m)<br>+15% Profession EXP (30m)<br>+10% Trait Quality (30m)</td>
+<td>70</td>
+</tr>
+<tr>
+<td><strong>Redpacket Golden Banquet</strong></td>
+<td>Prep</td>
+<td>+110 Health<br>+430 Mana</td>
+<td>+13.6% Physical Damage (20m)<br>+13.6% Attack Speed (20m)<br>+27.2 Max Health (20m)<br>+6.8 Health Regeneration (20m)<br>+3.4 Luck (20m)<br>Saturation III (55s)<br>+20% Dungeon Party EXP (30m)<br>+15% Profession EXP (30m)<br>+10% Trait Quality (30m)</td>
+<td>70</td>
+</tr>
+<tr>
+<td><strong>Durian War Stew</strong></td>
+<td>Stove</td>
+<td>+110 Health<br>+430 Mana</td>
+<td>+20.4% Undead Damage (20m)<br>+6.8% Physical Damage (20m)<br>+10.2 Knockback Resistance (20m)<br>Saturation III (55s)<br>+20% Dungeon Party EXP (30m)<br>+15% Profession EXP (30m)<br>+10% Trait Quality (30m)</td>
+<td>70</td>
+</tr>
+<tr>
+<td><strong>Goji Avocado Recovery Tea</strong></td>
+<td>Stove</td>
+<td>+110 Health<br>+430 Mana</td>
+<td>+34 Max Health (20m)<br>+6.8% Damage Reduction (20m)<br>+6.8% Lifesteal (20m)<br>+10.2 Health Regeneration (20m)<br>Saturation III (55s)<br>+20% Profession EXP (30m)<br>+15% Dungeon Party EXP (30m)<br>+10% Trait Quality (30m)</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
 <h2 id="prepared-ingredients">Prepared ingredients<a class="headerlink" href="#prepared-ingredients" title="Permanent link">&para;</a></h2>
-<p>Four things made at a station aren't dishes at all — they're components other recipes ask for:
+<p>Four things made at a station aren't dishes — they're components other recipes ask for:
 <strong>Croissant Dough</strong>, <strong>Pancake Batter</strong>, <strong>Waffle Batter</strong> and <strong>Tomato Paste</strong>. You'll meet them
 as soon as you start baking.</p>
 <div class="admonition note">
