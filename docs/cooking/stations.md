@@ -7,7 +7,7 @@ Buy them from the **Cooking** section of the server shop, or ask **Kate** — sh
 
 | Station | What it does | Cost |
 | --- | --- | --- |
-| **Prep Station** | Shaped recipes: sandwiches, bowls, sushi, doughs | 25,000 |
+| **Prep Station** | Assembled meals: sandwiches, bowls, sushi, doughs | 25,000 |
 | **Chopping Station** | Dicing and juicing raw produce | 15,000 |
 | **Kitchen Stove** | Timed cooking: stews, fries, curries, meats | 50,000 |
 | **Kitchen Oven** | Timed baking: breads, cakes, pastries, jellies | 85,000 |
@@ -21,14 +21,15 @@ The kitchen island. Right-click it and it asks what you're making:
 
 Both live in the same piece of furniture, so you only ever need one.
 
-Prep recipes are **shaped**: where you put each ingredient matters, not just what you have. The
-layout is part of what you're discovering, and it's shown in the recipe book once you know a dish.
-The board can hold the shape anywhere on it — you don't have to hug a corner.
+Prep recipes are **shapeless**: put the right ingredients anywhere on the board and the dish
+assembles. What you're discovering is *what goes in*, not where it sits.
+
+It's still exact, though — the board has to hold the recipe's ingredients and **nothing else**. A
+stray item in a corner stops the match rather than silently getting eaten.
 
 !!! tip "Let the book fill the board"
     Open the recipe book at a prep station, pick a recipe, and press **Move Ingredients**. It pulls
-    everything out of your inventory and lays it out correctly. Much faster than placing nine items
-    by hand, and it can't get the shape wrong.
+    everything straight out of your inventory onto the board in one click.
 
 ## Chopping Station
 

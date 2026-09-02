@@ -9,8 +9,8 @@ The book shows **all 120 dishes** from the moment you open it for the first time
 haven't discovered sit behind a question mark.
 
 That's deliberate. You can see how much cooking is left to find, and watching the question marks turn
-into dishes is the progression. What you *can't* see is what's inside one — the ingredients and, for
-prep recipes, the layout stay hidden until you've earned them.
+into dishes is the progression. What you *can't* see is what's inside one — the ingredients stay
+hidden until you've earned them.
 
 ## Discovering recipes
 
@@ -22,8 +22,8 @@ recipe that uses it moves a step closer to being readable.
     whole line of recipes at once. Farming widely is the fastest way to fill the book — a season
     spent growing something new usually unlocks more than a season spent cooking.
 
-A recipe becomes fully readable — layout included — once you know everything that goes into it. Until
-then you'll see it partly masked, which is often enough to tell you what you're missing.
+A recipe becomes fully readable once you know everything that goes into it. Until then you'll see it
+partly masked, which is often enough to tell you what you're missing.
 
 Recipes can also be **granted outright**. Some quests hand you one as a reward, so a dish you'd never
 have stumbled on can arrive complete.
@@ -31,8 +31,7 @@ have stumbled on can arrive complete.
 ## Cooking from the book
 
 Open the book while standing at a **Prep Station** and each recipe gains a **Move Ingredients**
-button. It pulls the ingredients out of your inventory and lays them onto the board in the right
-shape.
+button. It pulls the ingredients out of your inventory and puts them on the board for you.
 
 It only fills a board it can fill: if you're short, it says so rather than half-loading the grid, and
 a 4×4 recipe won't transfer onto a 3×3 board.
