@@ -72,13 +72,36 @@ Two things decide the roll:
 1. **Which levels are unlocked.** Below Gemforging 75 you simply cannot roll the top levels — they unlock evenly as you level, and all of them are open at **75**.
 2. **How the odds lean.** Once a level is unlocked, the odds shift toward higher rolls as you keep levelling past 75.
 
-### Chance of rolling the maximum level
+### Below Gemforging 75 — what you can roll at all
+
+Levels unlock evenly on the way to 75. Until a level is unlocked it simply cannot appear, no matter how lucky you are. This is the highest level each kind of stone can produce:
 
 | Gemforging | max II | max III | max IV | max V | max VI | max VII | max VIII |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **1** | — | — | — | — | — | — | — |
-| **25** | — | — | — | — | — | — | — |
-| **50** | — | — | — | — | — | — | — |
+| **1** | I | I | I | I | I | I | I |
+| **10** | I | I | I | I | I | I | I |
+| **20** | I | I | I | II | II | II | II |
+| **30** | I | I | II | II | III | III | III |
+| **40** | I | II | II | III | III | IV | IV |
+| **50** | I | II | III | III | IV | V | V |
+| **60** | I | II | III | IV | V | V | VI |
+| **70** | I | II | III | IV | V | VI | VII |
+| **75** | II | III | IV | V | VI | VII | VIII |
+
+!!! info "Every enchant's top level unlocks at exactly 75 — and not one level sooner"
+    The unlock is spread evenly across the climb to 75, so the final level always lands right at the end. That is why a table of "chance of rolling the maximum" is blank below 75: it is not missing, it is genuinely impossible.
+
+!!! tip "Big enchants are the *better* craft while you are levelling"
+    This catches people out. A **max-II** stone has only one unlock to give, so it is stuck on level I the whole way and only reaches II at 75. A **max-VIII** stone splits its unlocks across the climb, so it reaches II at Gemforging 11, V at 43, and VII by 65.
+
+    Below 75, a big enchant is already giving you real levels while a small one is still handing out Is.
+
+### At 75 and beyond — chance of rolling the maximum
+
+Once every level is unlocked, what changes is how the odds lean:
+
+| Gemforging | max II | max III | max IV | max V | max VI | max VII | max VIII |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | **75** | 63% | 49% | 39% | 31% | 8% | 6% | 4% |
 | **100** | 65% | 51% | 41% | 33% | 11% | 8% | 7% |
 | **125** | 66% | 52% | 43% | 36% | 14% | 11% | 10% |
