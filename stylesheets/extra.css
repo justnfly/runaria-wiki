@@ -826,3 +826,67 @@
   font-weight: 600;
   color: var(--md-default-fg-color--light);
 }
+
+/* ---- Enchant odds selector (economy/gems.md) ---- */
+.rge {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  padding: 0.9rem;
+  margin: 1.2rem 0;
+  font-size: 0.75rem;
+}
+
+.rge-out { margin-top: 1rem; }
+
+.rge-head { margin-bottom: 0.8rem; }
+
+.rge-big {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--md-accent-fg-color);
+  font-variant-numeric: tabular-nums;
+}
+
+.rge-sub {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rge-levels { display: flex; flex-direction: column; gap: 0.3rem; }
+
+.rge-row { display: flex; align-items: center; gap: 0.6rem; }
+
+.rge-row--locked { opacity: 0.45; }
+
+.rge-lv {
+  flex: 0 0 2.2rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+.rge-track {
+  flex: 1 1 auto;
+  height: 0.55rem;
+  border-radius: 0.28rem;
+  background: var(--md-default-fg-color--lightest);
+  overflow: hidden;
+}
+
+.rge-fill {
+  height: 100%;
+  border-radius: 0.28rem;
+  background: var(--md-primary-fg-color);
+  opacity: 0.75;
+}
+
+.rge-pct {
+  flex: 0 0 3.4rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.7rem;
+}
+
+.rge-single {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+}
