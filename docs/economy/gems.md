@@ -72,42 +72,26 @@ Two things decide the roll:
 1. **Which levels are unlocked.** Below Gemforging 75 you simply cannot roll the top levels — they unlock evenly as you level, and all of them are open at **75**.
 2. **How the odds lean.** Once a level is unlocked, the odds shift toward higher rolls as you keep levelling past 75.
 
-### Below Gemforging 75 — what you can roll at all
-
-Levels unlock evenly on the way to 75. Until a level is unlocked it simply cannot appear, no matter how lucky you are. This is the highest level each kind of stone can produce:
+### Chance of rolling the maximum level
 
 | Gemforging | max II | max III | max IV | max V | max VI | max VII | max VIII |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **1** | I | I | I | I | I | I | I |
-| **10** | I | I | I | I | I | I | I |
-| **20** | I | I | I | II | II | II | II |
-| **30** | I | I | II | II | III | III | III |
-| **40** | I | II | II | III | III | IV | IV |
-| **50** | I | II | III | III | IV | V | V |
-| **60** | I | II | III | IV | V | V | VI |
-| **70** | I | II | III | IV | V | VI | VII |
-| **75** | II | III | IV | V | VI | VII | VIII |
-
-!!! info "Every enchant's top level unlocks at exactly 75 — and not one level sooner"
-    The unlock is spread evenly across the climb to 75, so the final level always lands right at the end. That is why a table of "chance of rolling the maximum" is blank below 75: it is not missing, it is genuinely impossible.
-
-!!! tip "Big enchants are the *better* craft while you are levelling"
-    This catches people out. A **max-II** stone has only one unlock to give, so it is stuck on level I the whole way and only reaches II at 75. A **max-VIII** stone splits its unlocks across the climb, so it reaches II at Gemforging 11, V at 43, and VII by 65.
-
-    Below 75, a big enchant is already giving you real levels while a small one is still handing out Is.
-
-### At 75 and beyond — chance of rolling the maximum
-
-Once every level is unlocked, what changes is how the odds lean:
-
-| Gemforging | max II | max III | max IV | max V | max VI | max VII | max VIII |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| **1** | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
+| **25** | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
+| **50** | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
 | **75** | 63% | 49% | 39% | 31% | 8% | 6% | 4% |
 | **100** | 65% | 51% | 41% | 33% | 11% | 8% | 7% |
 | **125** | 66% | 52% | 43% | 36% | 14% | 11% | 10% |
 | **150** | 67% | 54% | 46% | 38% | 18% | 15% | 13% |
 | **175** | 68% | 56% | 48% | 41% | 22% | 19% | 18% |
 | **200** | 69% | 57% | 50% | 43% | 26% | 24% | 23% |
+
+The zeros below 75 are real. Levels unlock evenly on the climb to 75, which means **every enchant's top level lands at exactly 75 and not one level sooner** — before that it cannot appear however lucky you are.
+
+!!! tip "Big enchants are the better craft while you are levelling"
+    This catches people out. A **max-II** stone has only one unlock to give, so it sits at 100% level I the whole way and only reaches II at 75. A **max-VIII** stone spreads its unlocks across the climb, reaching II at Gemforging 11, V at 43 and VII by 65.
+
+    Below 75 a big enchant is already handing you real levels while a small one is still producing Is.
 
 !!! warning "Gemforging 75 is the floor, not the goal"
     75 unlocks every level, but it does **not** mean you will roll them. A max-VIII stone crafted at exactly 75 hits VIII only **4%** of the time — and rolls I, II or III more than 60% of the time.
@@ -130,9 +114,9 @@ Once every level is unlocked, what changes is how the odds lean:
 
     | Gemforging | I | II |
     | --- | --- | --- |
-    | **1** | 100% | — |
-    | **25** | 100% | — |
-    | **50** | 100% | — |
+    | **1** | 100% | 0% |
+    | **25** | 100% | 0% |
+    | **50** | 100% | 0% |
     | **75** | 37% | 63% |
     | **100** | 35% | 65% |
     | **125** | 34% | 66% |
@@ -144,9 +128,9 @@ Once every level is unlocked, what changes is how the odds lean:
 
     | Gemforging | I | II | III |
     | --- | --- | --- | --- |
-    | **1** | 100% | — | — |
-    | **25** | 100% | — | — |
-    | **50** | 40% | 60% | — |
+    | **1** | 100% | 0% | 0% |
+    | **25** | 100% | 0% | 0% |
+    | **50** | 40% | 60% | 0% |
     | **75** | 20% | 31% | 49% |
     | **100** | 19% | 31% | 51% |
     | **125** | 17% | 30% | 52% |
@@ -158,9 +142,9 @@ Once every level is unlocked, what changes is how the odds lean:
 
     | Gemforging | I | II | III | IV |
     | --- | --- | --- | --- | --- |
-    | **1** | 100% | — | — | — |
-    | **25** | 44% | 56% | — | — |
-    | **50** | 24% | 32% | 44% | — |
+    | **1** | 100% | 0% | 0% | 0% |
+    | **25** | 44% | 56% | 0% | 0% |
+    | **50** | 24% | 32% | 44% | 0% |
     | **75** | 14% | 19% | 28% | 39% |
     | **100** | 12% | 19% | 28% | 41% |
     | **125** | 11% | 18% | 28% | 43% |
@@ -172,9 +156,9 @@ Once every level is unlocked, what changes is how the odds lean:
 
     | Gemforging | I | II | III | IV | V |
     | --- | --- | --- | --- | --- | --- |
-    | **1** | 100% | — | — | — | — |
-    | **25** | 46% | 54% | — | — | — |
-    | **50** | 27% | 33% | 40% | — | — |
+    | **1** | 100% | 0% | 0% | 0% | 0% |
+    | **25** | 46% | 54% | 0% | 0% | 0% |
+    | **50** | 27% | 33% | 40% | 0% | 0% |
     | **75** | 11% | 15% | 19% | 24% | 31% |
     | **100** | 10% | 14% | 18% | 25% | 33% |
     | **125** | 9% | 13% | 18% | 25% | 36% |
@@ -186,9 +170,9 @@ Once every level is unlocked, what changes is how the odds lean:
 
     | Gemforging | I | II | III | IV | V | VI |
     | --- | --- | --- | --- | --- | --- | --- |
-    | **1** | 100% | — | — | — | — | — |
-    | **25** | 56% | 44% | — | — | — | — |
-    | **50** | 35% | 27% | 21% | 17% | — | — |
+    | **1** | 100% | 0% | 0% | 0% | 0% | 0% |
+    | **25** | 56% | 44% | 0% | 0% | 0% | 0% |
+    | **50** | 35% | 27% | 21% | 17% | 0% | 0% |
     | **75** | 28% | 22% | 17% | 13% | 10% | 8% |
     | **100** | 24% | 20% | 17% | 15% | 13% | 11% |
     | **125** | 20% | 18% | 17% | 16% | 15% | 14% |
@@ -200,9 +184,9 @@ Once every level is unlocked, what changes is how the odds lean:
 
     | Gemforging | I | II | III | IV | V | VI | VII |
     | --- | --- | --- | --- | --- | --- | --- | --- |
-    | **1** | 100% | — | — | — | — | — | — |
-    | **25** | 42% | 33% | 25% | — | — | — | — |
-    | **50** | 31% | 24% | 19% | 15% | 11% | — | — |
+    | **1** | 100% | 0% | 0% | 0% | 0% | 0% | 0% |
+    | **25** | 42% | 33% | 25% | 0% | 0% | 0% | 0% |
+    | **50** | 31% | 24% | 19% | 15% | 11% | 0% | 0% |
     | **75** | 27% | 21% | 16% | 13% | 10% | 8% | 6% |
     | **100** | 22% | 19% | 16% | 14% | 12% | 10% | 8% |
     | **125** | 17% | 16% | 15% | 14% | 13% | 12% | 11% |
@@ -214,9 +198,9 @@ Once every level is unlocked, what changes is how the odds lean:
 
     | Gemforging | I | II | III | IV | V | VI | VII | VIII |
     | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-    | **1** | 100% | — | — | — | — | — | — | — |
-    | **25** | 42% | 33% | 25% | — | — | — | — | — |
-    | **50** | 31% | 24% | 19% | 15% | 11% | — | — | — |
+    | **1** | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
+    | **25** | 42% | 33% | 25% | 0% | 0% | 0% | 0% | 0% |
+    | **50** | 31% | 24% | 19% | 15% | 11% | 0% | 0% | 0% |
     | **75** | 26% | 20% | 16% | 12% | 9% | 7% | 6% | 4% |
     | **100** | 20% | 17% | 15% | 13% | 11% | 9% | 8% | 7% |
     | **125** | 16% | 15% | 14% | 13% | 12% | 11% | 10% | 10% |
@@ -224,7 +208,7 @@ Once every level is unlocked, what changes is how the odds lean:
     | **175** | 8% | 9% | 10% | 11% | 13% | 14% | 16% | 18% |
     | **200** | 6% | 7% | 8% | 10% | 12% | 15% | 19% | 23% |
 
-A dash means that level is not unlocked yet and cannot roll at all.
+A 0% means that level is not unlocked yet and cannot roll at all.
 
 ### Experience for rolling well
 
