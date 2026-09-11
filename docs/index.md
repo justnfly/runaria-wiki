@@ -17,6 +17,18 @@ Runaria is a full RPG server. The five systems you'll touch on day one:
 - **[Professions](progression/professions.md)** — ten of them, and they level your character too.
 - **[Cooking](cooking/index.md)** — four stations, 120 dishes, and food that carries the cook's name.
 
+## Gear & loot
+
+Everything about the items you find and make — what they roll, and what the numbers mean.
+
+| Page | What's in it |
+| --- | --- |
+| [Gear, Rarities & Stats](economy/gear.md) | Rarities, Resilience, affixes, sockets, class locks — the main reference |
+| [Gems & Enchanting](economy/gems.md) | Socketing gems, and 122 enchant stones |
+| [Item Quality](economy/crafting.md) | The Forged-By system and how your profession level shapes gear |
+| [Stat Explorer](economy/stat-explorer.md) | **Look up any item's exact stat ranges**, dropped or crafted |
+| [Item Builder](economy/builder.md) | **Build an item slot by slot** and see how likely it is |
+
 ## Fighting
 
 | Page | What's in it |
@@ -34,8 +46,6 @@ Runaria is a full RPG server. The five systems you'll touch on day one:
 | --- | --- |
 | [Crafting Stations](economy/stations.md) | All 21 stations and what each is for |
 | [Ores & Materials](economy/materials.md) | 28 custom ores, where to find them, and the rarity ladder |
-| [Gems & Enchanting](economy/gems.md) | Socketing gems, and 123 enchant stones |
-| [Item Quality](economy/crafting.md) | The Forged-By system and how your profession level shapes gear |
 | [Attributes](progression/attributes.md) | The 36 attributes and how to spend points |
 
 ## Living in the world

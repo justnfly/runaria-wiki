@@ -113,3 +113,716 @@
 .md-typeset details > summary {
   font-weight: 600;
 }
+
+/* ---- Gear stat explorer (economy/gear.md) ---- */
+.rgx {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  padding: 0.9rem;
+  margin: 1.2rem 0;
+  font-size: 0.75rem;
+}
+
+.rgx-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.rgx-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 8.5rem;
+}
+
+.rgx-field--grow {
+  flex: 1 1 11rem;
+}
+
+.rgx-label {
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgx select,
+.rgx input[type="search"] {
+  width: 100%;
+  padding: 0.35rem 0.45rem;
+  font: inherit;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+}
+
+.rgx-roll {
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.rgx-roll-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.rgx-roll-title {
+  font-weight: 700;
+}
+
+.rgx-roll-val {
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+}
+
+.rgx-range {
+  width: 100%;
+  margin: 0.45rem 0 0;
+  accent-color: var(--md-accent-fg-color);
+}
+
+.rgx-hint {
+  margin: 0.3rem 0 0;
+  font-size: 0.65rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Sections are <details>; strip Material's heavy details chrome so they stay
+   compact inside the widget. */
+.md-typeset .rgx details.rgx-sec,
+.md-typeset .rgx details.rgx-more {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  font-size: inherit;
+}
+
+.md-typeset .rgx details.rgx-sec > summary,
+.md-typeset .rgx details.rgx-more > summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-weight: inherit;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* Material draws its own icon (::before) and arrow (::after) on a summary.
+   Kill the arrow outright; keep ::before as a box we can put our own
+   triangle in, so it must not be display:none here. */
+.md-typeset .rgx details.rgx-sec > summary::after,
+.md-typeset .rgx details.rgx-more > summary::after {
+  display: none;
+}
+
+.md-typeset .rgx details.rgx-sec > summary::before,
+.md-typeset .rgx details.rgx-more > summary::before {
+  position: static;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  background: none;
+  -webkit-mask-image: none;
+  mask-image: none;
+  transform: none;
+}
+
+.rgx details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.rgx-sec {
+  margin-top: 1.3rem !important;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding-top: 0.6rem !important;
+}
+
+.rgx-sum {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.5rem;
+}
+
+.md-typeset .rgx details.rgx-sec > summary.rgx-sum::before {
+  content: "▸";
+  margin-right: 0.1rem;
+  color: var(--md-default-fg-color--light);
+  transition: transform 0.15s;
+}
+
+.md-typeset .rgx details.rgx-sec[open] > summary.rgx-sum::before {
+  content: "▾";
+}
+
+.rgx-sum-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.rgx-sum-note {
+  flex: 1 1 100%;
+  margin-left: 0.85rem;
+  font-size: 0.66rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgx-note,
+.rgx-empty {
+  margin: 0 0 0.6rem;
+  font-size: 0.66rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgx-row {
+  margin: 0.5rem 0 0.7rem;
+}
+
+.rgx-row-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.8rem;
+}
+
+.rgx-stat {
+  font-weight: 600;
+}
+
+.rgx-at {
+  font-variant-numeric: tabular-nums;
+  color: var(--md-accent-fg-color);
+}
+
+.rgx-track {
+  position: relative;
+  height: 0.45rem;
+  margin: 0.25rem 0 0.15rem;
+  border-radius: 0.25rem;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.rgx-fill {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-radius: 0.25rem;
+  background: var(--md-primary-fg-color);
+  opacity: 0.65;
+}
+
+.rgx-knob {
+  position: absolute;
+  top: 50%;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-left: -0.275rem;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 2px var(--md-default-bg-color);
+}
+
+.rgx-ends {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.63rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgx-check {
+  min-width: 6rem;
+}
+
+.rgx-check-line {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0;
+}
+
+.rgx-check-line input {
+  width: 0.85rem;
+  height: 0.85rem;
+  margin: 0;
+  accent-color: var(--md-accent-fg-color);
+}
+
+.rgx-delta {
+  margin-left: 0.5rem;
+  padding: 0.05rem 0.35rem;
+  border-radius: 0.6rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-bg-color);
+  background: var(--md-accent-fg-color);
+  vertical-align: middle;
+}
+
+.rgx-sock {
+  margin-top: 0.5rem;
+}
+
+.rgx-sock-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.8rem;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.rgx-sock-name {
+  flex: 0 0 11rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.rgx-sock-count {
+  font-size: 0.64rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgx-sock-opts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.rgx-pill {
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.6rem;
+  font-size: 0.66rem;
+  white-space: nowrap;
+}
+
+.rgx-pill em {
+  font-style: normal;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgx-summary {
+  margin-top: 1rem;
+  padding: 0.6rem 0.7rem;
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-radius: 0 0.2rem 0.2rem 0;
+  background: var(--md-default-fg-color--lightest);
+  font-size: 0.7rem;
+}
+
+.rgx-summary-sub {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Search field is the thing people miss, so make it read as the main control */
+.rgx-field--search .rgx-label {
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.66rem;
+}
+
+.rgx-field--search input {
+  border-color: var(--md-accent-fg-color);
+}
+
+.rgx-row--group {
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.rgx-more > summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem;
+  margin-top: 0.3rem;
+}
+
+.rgx-more > summary::before {
+  content: "▸";
+  color: var(--md-default-fg-color--light);
+}
+
+.rgx-more[open] > summary::before {
+  content: "▾";
+}
+
+.rgx-chip-face {
+  font-size: 0.68rem;
+  font-weight: 600;
+}
+
+.rgx-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.3rem;
+  align-items: baseline;
+  margin: 0.25rem 0 0 0.85rem;
+}
+
+.rgx-chip-count {
+  font-size: 0.64rem;
+  color: var(--md-accent-fg-color);
+}
+
+.rgx-chip {
+  font-size: 0.63rem;
+  line-height: 1.35;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgx-chip:not(:last-child)::after {
+  content: " \00b7";
+  color: var(--md-default-fg-color--lighter);
+}
+
+/* ---- Odds calculator (economy/odds.md) ---- */
+.rgo {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  padding: 0.9rem;
+  margin: 1.2rem 0;
+  font-size: 0.75rem;
+}
+
+.rgo-reqs {
+  margin-top: 0.9rem;
+}
+
+.rgo-req {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.4rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.rgo-req > select {
+  flex: 1 1 11rem;
+  padding: 0.35rem 0.45rem;
+  font: inherit;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+}
+
+.rgo-atleast {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgo-atleast input {
+  width: 5rem;
+  padding: 0.3rem 0.4rem;
+  font: inherit;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+}
+
+.rgo-cap {
+  font-variant-numeric: tabular-nums;
+}
+
+.rgo-rm,
+.rgo-add-btn {
+  padding: 0.3rem 0.6rem;
+  font: inherit;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+  background: none;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.rgo-add-btn {
+  margin-top: 0.6rem;
+  color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+.rgo-rm:hover,
+.rgo-add-btn:hover {
+  background: var(--md-default-fg-color--lightest);
+}
+
+.rgo-result {
+  margin-top: 1.1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.rgo-head {
+  margin-bottom: 0.8rem;
+}
+
+.rgo-big {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--md-accent-fg-color);
+  font-variant-numeric: tabular-nums;
+}
+
+.rgo-sub {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .rgo table.rgo-table {
+  width: 100%;
+  margin: 0.5rem 0;
+  font-size: 0.68rem;
+}
+
+.md-typeset .rgo table.rgo-table th,
+.md-typeset .rgo table.rgo-table td {
+  padding: 0.3rem 0.4rem;
+}
+
+.rgo-num {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.rgo-from {
+  color: var(--md-default-fg-color--light);
+}
+
+.rgo-impossible {
+  padding: 0.6rem 0.7rem;
+  border-left: 3px solid #d4574e;
+  border-radius: 0 0.2rem 0.2rem 0;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.rgo-impossible ul {
+  margin: 0.3rem 0 0;
+  padding-left: 1.1rem;
+}
+
+/* ---- Item builder (economy/builder.md) ---- */
+.rgb {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  padding: 0.9rem;
+  margin: 1.2rem 0;
+  font-size: 0.75rem;
+}
+
+.rgb-cols {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 70em) {
+  .rgb-cols {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .rgb-item {
+    position: sticky;
+    top: 3.4rem;
+    align-self: start;
+  }
+}
+
+.md-typeset .rgb details.rgb-slot {
+  display: block;
+  margin: 0 0 0.7rem;
+  padding: 0.5rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  font-size: inherit;
+}
+
+.md-typeset .rgb details.rgb-slot > summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-weight: inherit;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.md-typeset .rgb details.rgb-slot > summary::after {
+  display: none;
+}
+
+.md-typeset .rgb details.rgb-slot > summary::before {
+  content: "▸";
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  background: none;
+  -webkit-mask-image: none;
+  mask-image: none;
+  transform: none;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .rgb details.rgb-slot[open] > summary::before {
+  content: "▾";
+}
+
+.rgb details > summary::-webkit-details-marker { display: none; }
+
+.rgb-slot-name { font-weight: 700; font-size: 0.78rem; }
+.rgb-slot-count { font-size: 0.65rem; color: var(--md-default-fg-color--light); }
+
+.rgb-count {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.4rem 0 0.2rem 0.85rem;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgb-count input {
+  width: 4rem;
+  padding: 0.25rem 0.35rem;
+  font: inherit;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+}
+
+.rgb-pick {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.3rem 0 0 0.85rem;
+}
+
+.rgb-pick select {
+  flex: 1 1 9rem;
+  min-width: 0;
+  padding: 0.3rem 0.4rem;
+  font: inherit;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+}
+
+.rgb-band {
+  font-size: 0.65rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+
+.rgb-card {
+  padding: 0.8rem 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.rgb-card-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--md-accent-fg-color);
+}
+
+.rgb-card-tier {
+  font-size: 0.65rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.5rem;
+}
+
+.rgb-stats { display: flex; flex-direction: column; gap: 0.15rem; }
+
+.rgb-stat {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.rgb-stat-name { flex: 1 1 auto; }
+
+.rgb-stat-val {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.rgb-stat-src {
+  font-size: 0.62rem;
+  color: var(--md-default-fg-color--light);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.rgb-card-sock {
+  margin-top: 0.5rem;
+  font-size: 0.66rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rgb-odds { margin-top: 1rem; }
+
+.rgb-gemodds {
+  margin-top: 0.8rem;
+  padding: 0.5rem 0.6rem;
+  border-left: 3px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-fg-color--lightest);
+  font-size: 0.7rem;
+}
+
+.rgb-val {
+  width: 4.6rem;
+  padding: 0.28rem 0.35rem;
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+}
+
+.rgb-basename { flex: 1 1 9rem; }
+
+.rgb-stat-range {
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+}
