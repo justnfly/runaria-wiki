@@ -67,18 +67,35 @@ Enchant Stones carry an enchantment and socket into an item's Enchant Socket. Th
 
 One stone covers a whole enchant. **The level is rolled when you craft it**, from your Gemforging level, and shown on the stone's lore.
 
-Two things decide the roll:
+Two things decide the roll: **which levels are unlocked**, and once unlocked, **how the odds lean**.
 
-1. **Which levels are unlocked.** Below Gemforging 75 you simply cannot roll the top levels — they unlock evenly as you level, and all of them are open at **75**.
-2. **How the odds lean.** Once a level is unlocked, the odds shift toward higher rolls as you keep levelling past 75.
+### When each level unlocks
+
+A roman numeral means the same thing on every enchant. Level III needs the same Gemforging level whether you are crafting Sharpness or Abrasion:
+
+| Level | Unlocks at Gemforging |
+| --- | --- |
+| **II** | 11 |
+| **III** | 22 |
+| **IV** | 33 |
+| **V** | 43 |
+| **VI** | 54 |
+| **VII** | 65 |
+| **VIII** | 75 |
+
+An enchant stops at its own maximum, so a max-II enchant is fully unlocked at 11 and never changes again, while Sharpness keeps gaining levels all the way to 75.
 
 ### Chance of rolling the maximum level
 
 | Gemforging | max II | max III | max IV | max V | max VI | max VII | max VIII |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **1** | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
-| **25** | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
-| **50** | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
+| **11** | 60% | 0% | 0% | 0% | 0% | 0% | 0% |
+| **22** | 61% | 45% | 0% | 0% | 0% | 0% | 0% |
+| **33** | 61% | 46% | 36% | 0% | 0% | 0% | 0% |
+| **43** | 62% | 47% | 37% | 28% | 0% | 0% | 0% |
+| **54** | 62% | 47% | 37% | 29% | 8% | 0% | 0% |
+| **65** | 63% | 48% | 38% | 30% | 8% | 6% | 0% |
 | **75** | 63% | 49% | 39% | 31% | 8% | 6% | 4% |
 | **100** | 65% | 51% | 41% | 33% | 11% | 8% | 7% |
 | **125** | 66% | 52% | 43% | 36% | 14% | 11% | 10% |
@@ -86,23 +103,18 @@ Two things decide the roll:
 | **175** | 68% | 56% | 48% | 41% | 22% | 19% | 18% |
 | **200** | 69% | 57% | 50% | 43% | 26% | 24% | 23% |
 
-The zeros below 75 are real. Levels unlock evenly on the climb to 75, which means **every enchant's top level lands at exactly 75 and not one level sooner** — before that it cannot appear however lucky you are.
+A 0% means that level is not unlocked yet and cannot roll however lucky you are.
 
-!!! tip "Big enchants are the better craft while you are levelling"
-    This catches people out. A **max-II** stone has only one unlock to give, so it sits at 100% level I the whole way and only reaches II at 75. A **max-VIII** stone spreads its unlocks across the climb, reaching II at Gemforging 11, V at 43 and VII by 65.
+!!! warning "Unlocking a level is not the same as rolling it"
+    Gemforging 75 opens level VIII, but a max-VIII stone crafted at exactly 75 hits VIII only **4%** of the time — it rolls I, II or III more than 60% of the time. Unlock and odds are two separate things.
 
-    Below 75 a big enchant is already handing you real levels while a small one is still producing Is.
+!!! tip "Small enchants finish early. Big ones keep improving."
+    A **max-II** stone is at 60% for its top level from Gemforging 11 and only reaches 69% at 200 — once you can make it, it is essentially done.
 
-!!! warning "Gemforging 75 is the floor, not the goal"
-    75 unlocks every level, but it does **not** mean you will roll them. A max-VIII stone crafted at exactly 75 hits VIII only **4%** of the time — and rolls I, II or III more than 60% of the time.
+    A **max-VIII** stone goes from 4% at 75 to 23% at 200, nearly six times better. Those are the ones that reward the grind.
 
-!!! tip "Small enchants stop caring after 75. Big ones do not."
-    A **max-II** stone goes from 63% to 69% between Gemforging 75 and 200 — 125 levels for six percentage points. Once you are at 75, craft them freely.
-
-    A **max-VIII** stone goes from 4% to 23% over the same stretch, nearly six times better. Those are the ones worth saving for.
-
-!!! danger "Big stones roll *badly* until Gemforging 145"
-    For enchants with a maximum of **VI or above**, the curve is deliberately weighted toward the low end at first. It is flat at **Gemforging 145** — every level equally likely — and only favours high rolls above that.
+!!! danger "Big stones roll badly until Gemforging 145"
+    For enchants with a maximum of **VI or above**, the odds are deliberately weighted toward the low end at first. They are flat at **Gemforging 145** — every level equally likely — and only favour high rolls above that.
 
     That is why a max-VI stone at 75 hits VI just **8%** of the time while a max-V stone hits V **31%** of the time. If you want Sharpness VIII or Power VIII, crafting before 145 is mostly burning materials.
 
@@ -115,8 +127,12 @@ The zeros below 75 are real. Levels unlock evenly on the climb to 75, which mean
     | Gemforging | I | II |
     | --- | --- | --- |
     | **1** | 100% | 0% |
-    | **25** | 100% | 0% |
-    | **50** | 100% | 0% |
+    | **11** | 40% | 60% |
+    | **22** | 39% | 61% |
+    | **33** | 39% | 61% |
+    | **43** | 38% | 62% |
+    | **54** | 38% | 62% |
+    | **65** | 37% | 63% |
     | **75** | 37% | 63% |
     | **100** | 35% | 65% |
     | **125** | 34% | 66% |
@@ -129,8 +145,12 @@ The zeros below 75 are real. Levels unlock evenly on the climb to 75, which mean
     | Gemforging | I | II | III |
     | --- | --- | --- | --- |
     | **1** | 100% | 0% | 0% |
-    | **25** | 100% | 0% | 0% |
-    | **50** | 40% | 60% | 0% |
+    | **11** | 42% | 58% | 0% |
+    | **22** | 23% | 32% | 45% |
+    | **33** | 22% | 32% | 46% |
+    | **43** | 22% | 32% | 47% |
+    | **54** | 21% | 32% | 47% |
+    | **65** | 20% | 31% | 48% |
     | **75** | 20% | 31% | 49% |
     | **100** | 19% | 31% | 51% |
     | **125** | 17% | 30% | 52% |
@@ -143,8 +163,12 @@ The zeros below 75 are real. Levels unlock evenly on the climb to 75, which mean
     | Gemforging | I | II | III | IV |
     | --- | --- | --- | --- | --- |
     | **1** | 100% | 0% | 0% | 0% |
-    | **25** | 44% | 56% | 0% | 0% |
-    | **50** | 24% | 32% | 44% | 0% |
+    | **11** | 44% | 56% | 0% | 0% |
+    | **22** | 26% | 33% | 42% | 0% |
+    | **33** | 16% | 21% | 27% | 36% |
+    | **43** | 15% | 21% | 27% | 37% |
+    | **54** | 15% | 20% | 28% | 37% |
+    | **65** | 14% | 20% | 28% | 38% |
     | **75** | 14% | 19% | 28% | 39% |
     | **100** | 12% | 19% | 28% | 41% |
     | **125** | 11% | 18% | 28% | 43% |
@@ -157,8 +181,12 @@ The zeros below 75 are real. Levels unlock evenly on the climb to 75, which mean
     | Gemforging | I | II | III | IV | V |
     | --- | --- | --- | --- | --- | --- |
     | **1** | 100% | 0% | 0% | 0% | 0% |
-    | **25** | 46% | 54% | 0% | 0% | 0% |
-    | **50** | 27% | 33% | 40% | 0% | 0% |
+    | **11** | 47% | 53% | 0% | 0% | 0% |
+    | **22** | 29% | 33% | 38% | 0% | 0% |
+    | **33** | 19% | 23% | 27% | 32% | 0% |
+    | **43** | 13% | 16% | 19% | 23% | 28% |
+    | **54** | 13% | 16% | 19% | 24% | 29% |
+    | **65** | 12% | 15% | 19% | 24% | 30% |
     | **75** | 11% | 15% | 19% | 24% | 31% |
     | **100** | 10% | 14% | 18% | 25% | 33% |
     | **125** | 9% | 13% | 18% | 25% | 36% |
@@ -171,8 +199,12 @@ The zeros below 75 are real. Levels unlock evenly on the climb to 75, which mean
     | Gemforging | I | II | III | IV | V | VI |
     | --- | --- | --- | --- | --- | --- | --- |
     | **1** | 100% | 0% | 0% | 0% | 0% | 0% |
-    | **25** | 56% | 44% | 0% | 0% | 0% | 0% |
-    | **50** | 35% | 27% | 21% | 17% | 0% | 0% |
+    | **11** | 56% | 44% | 0% | 0% | 0% | 0% |
+    | **22** | 42% | 33% | 25% | 0% | 0% | 0% |
+    | **33** | 35% | 27% | 21% | 17% | 0% | 0% |
+    | **43** | 31% | 24% | 19% | 15% | 11% | 0% |
+    | **54** | 28% | 22% | 17% | 13% | 10% | 8% |
+    | **65** | 28% | 22% | 17% | 13% | 10% | 8% |
     | **75** | 28% | 22% | 17% | 13% | 10% | 8% |
     | **100** | 24% | 20% | 17% | 15% | 13% | 11% |
     | **125** | 20% | 18% | 17% | 16% | 15% | 14% |
@@ -185,8 +217,12 @@ The zeros below 75 are real. Levels unlock evenly on the climb to 75, which mean
     | Gemforging | I | II | III | IV | V | VI | VII |
     | --- | --- | --- | --- | --- | --- | --- | --- |
     | **1** | 100% | 0% | 0% | 0% | 0% | 0% | 0% |
-    | **25** | 42% | 33% | 25% | 0% | 0% | 0% | 0% |
-    | **50** | 31% | 24% | 19% | 15% | 11% | 0% | 0% |
+    | **11** | 56% | 44% | 0% | 0% | 0% | 0% | 0% |
+    | **22** | 42% | 33% | 25% | 0% | 0% | 0% | 0% |
+    | **33** | 35% | 27% | 21% | 17% | 0% | 0% | 0% |
+    | **43** | 31% | 24% | 19% | 15% | 11% | 0% | 0% |
+    | **54** | 28% | 22% | 17% | 13% | 10% | 8% | 0% |
+    | **65** | 27% | 21% | 16% | 13% | 10% | 8% | 6% |
     | **75** | 27% | 21% | 16% | 13% | 10% | 8% | 6% |
     | **100** | 22% | 19% | 16% | 14% | 12% | 10% | 8% |
     | **125** | 17% | 16% | 15% | 14% | 13% | 12% | 11% |
@@ -199,8 +235,12 @@ The zeros below 75 are real. Levels unlock evenly on the climb to 75, which mean
     | Gemforging | I | II | III | IV | V | VI | VII | VIII |
     | --- | --- | --- | --- | --- | --- | --- | --- | --- |
     | **1** | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
-    | **25** | 42% | 33% | 25% | 0% | 0% | 0% | 0% | 0% |
-    | **50** | 31% | 24% | 19% | 15% | 11% | 0% | 0% | 0% |
+    | **11** | 56% | 44% | 0% | 0% | 0% | 0% | 0% | 0% |
+    | **22** | 42% | 33% | 25% | 0% | 0% | 0% | 0% | 0% |
+    | **33** | 35% | 27% | 21% | 17% | 0% | 0% | 0% | 0% |
+    | **43** | 31% | 24% | 19% | 15% | 11% | 0% | 0% | 0% |
+    | **54** | 28% | 22% | 17% | 13% | 10% | 8% | 0% | 0% |
+    | **65** | 27% | 21% | 16% | 13% | 10% | 8% | 6% | 0% |
     | **75** | 26% | 20% | 16% | 12% | 9% | 7% | 6% | 4% |
     | **100** | 20% | 17% | 15% | 13% | 11% | 9% | 8% | 7% |
     | **125** | 16% | 15% | 14% | 13% | 12% | 11% | 10% | 10% |
@@ -208,12 +248,9 @@ The zeros below 75 are real. Levels unlock evenly on the climb to 75, which mean
     | **175** | 8% | 9% | 10% | 11% | 13% | 14% | 16% | 18% |
     | **200** | 6% | 7% | 8% | 10% | 12% | 15% | 19% | 23% |
 
-A 0% means that level is not unlocked yet and cannot roll at all.
-
 ### Experience for rolling well
 
 You earn **bonus Gemforging experience for a good roll** — 15% extra at three-quarters of an enchant's max level, 30% at nine-tenths, and **50% for a perfect maximum roll**. Bigger enchants also pay more per craft, so levelling on the stones you actually want is not wasted.
-
 ### Vanilla enchantments, raised
 
 Several vanilla enchantments go **above their normal ceiling** as stones:
