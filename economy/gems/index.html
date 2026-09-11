@@ -667,6 +667,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#when-each-level-unlocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When each level unlocks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#chance-of-rolling-the-maximum-level" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2016,6 +2027,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#when-each-level-unlocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When each level unlocks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#chance-of-rolling-the-maximum-level" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2205,11 +2227,48 @@
 <p>Enchant Stones carry an enchantment and socket into an item's Enchant Socket. There are <strong>122 of them</strong> — 80 custom Runaria enchantments and 42 vanilla ones.</p>
 <h3 id="you-roll-the-level-you-dont-pick-it">You roll the level, you don't pick it<a class="headerlink" href="#you-roll-the-level-you-dont-pick-it" title="Permanent link">&para;</a></h3>
 <p>One stone covers a whole enchant. <strong>The level is rolled when you craft it</strong>, from your Gemforging level, and shown on the stone's lore.</p>
-<p>Two things decide the roll:</p>
-<ol>
-<li><strong>Which levels are unlocked.</strong> Below Gemforging 75 you simply cannot roll the top levels — they unlock evenly as you level, and all of them are open at <strong>75</strong>.</li>
-<li><strong>How the odds lean.</strong> Once a level is unlocked, the odds shift toward higher rolls as you keep levelling past 75.</li>
-</ol>
+<p>Two things decide the roll: <strong>which levels are unlocked</strong>, and once unlocked, <strong>how the odds lean</strong>.</p>
+<h3 id="when-each-level-unlocks">When each level unlocks<a class="headerlink" href="#when-each-level-unlocks" title="Permanent link">&para;</a></h3>
+<p>A roman numeral means the same thing on every enchant. Level III needs the same Gemforging level whether you are crafting Sharpness or Abrasion:</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Unlocks at Gemforging</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>II</strong></td>
+<td>11</td>
+</tr>
+<tr>
+<td><strong>III</strong></td>
+<td>22</td>
+</tr>
+<tr>
+<td><strong>IV</strong></td>
+<td>33</td>
+</tr>
+<tr>
+<td><strong>V</strong></td>
+<td>43</td>
+</tr>
+<tr>
+<td><strong>VI</strong></td>
+<td>54</td>
+</tr>
+<tr>
+<td><strong>VII</strong></td>
+<td>65</td>
+</tr>
+<tr>
+<td><strong>VIII</strong></td>
+<td>75</td>
+</tr>
+</tbody>
+</table>
+<p>An enchant stops at its own maximum, so a max-II enchant is fully unlocked at 11 and never changes again, while Sharpness keeps gaining levels all the way to 75.</p>
 <h3 id="chance-of-rolling-the-maximum-level">Chance of rolling the maximum level<a class="headerlink" href="#chance-of-rolling-the-maximum-level" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -2236,8 +2295,8 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>25</strong></td>
-<td>0%</td>
+<td><strong>11</strong></td>
+<td>60%</td>
 <td>0%</td>
 <td>0%</td>
 <td>0%</td>
@@ -2246,13 +2305,53 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>50</strong></td>
+<td><strong>22</strong></td>
+<td>61%</td>
+<td>45%</td>
 <td>0%</td>
 <td>0%</td>
 <td>0%</td>
 <td>0%</td>
 <td>0%</td>
+</tr>
+<tr>
+<td><strong>33</strong></td>
+<td>61%</td>
+<td>46%</td>
+<td>36%</td>
 <td>0%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
+<td>62%</td>
+<td>47%</td>
+<td>37%</td>
+<td>28%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>54</strong></td>
+<td>62%</td>
+<td>47%</td>
+<td>37%</td>
+<td>29%</td>
+<td>8%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td>63%</td>
+<td>48%</td>
+<td>38%</td>
+<td>30%</td>
+<td>8%</td>
+<td>6%</td>
 <td>0%</td>
 </tr>
 <tr>
@@ -2317,24 +2416,19 @@
 </tr>
 </tbody>
 </table>
-<p>The zeros below 75 are real. Levels unlock evenly on the climb to 75, which means <strong>every enchant's top level lands at exactly 75 and not one level sooner</strong> — before that it cannot appear however lucky you are.</p>
-<div class="admonition tip">
-<p class="admonition-title">Big enchants are the better craft while you are levelling</p>
-<p>This catches people out. A <strong>max-II</strong> stone has only one unlock to give, so it sits at 100% level I the whole way and only reaches II at 75. A <strong>max-VIII</strong> stone spreads its unlocks across the climb, reaching II at Gemforging 11, V at 43 and VII by 65.</p>
-<p>Below 75 a big enchant is already handing you real levels while a small one is still producing Is.</p>
-</div>
+<p>A 0% means that level is not unlocked yet and cannot roll however lucky you are.</p>
 <div class="admonition warning">
-<p class="admonition-title">Gemforging 75 is the floor, not the goal</p>
-<p>75 unlocks every level, but it does <strong>not</strong> mean you will roll them. A max-VIII stone crafted at exactly 75 hits VIII only <strong>4%</strong> of the time — and rolls I, II or III more than 60% of the time.</p>
+<p class="admonition-title">Unlocking a level is not the same as rolling it</p>
+<p>Gemforging 75 opens level VIII, but a max-VIII stone crafted at exactly 75 hits VIII only <strong>4%</strong> of the time — it rolls I, II or III more than 60% of the time. Unlock and odds are two separate things.</p>
 </div>
 <div class="admonition tip">
-<p class="admonition-title">Small enchants stop caring after 75. Big ones do not.</p>
-<p>A <strong>max-II</strong> stone goes from 63% to 69% between Gemforging 75 and 200 — 125 levels for six percentage points. Once you are at 75, craft them freely.</p>
-<p>A <strong>max-VIII</strong> stone goes from 4% to 23% over the same stretch, nearly six times better. Those are the ones worth saving for.</p>
+<p class="admonition-title">Small enchants finish early. Big ones keep improving.</p>
+<p>A <strong>max-II</strong> stone is at 60% for its top level from Gemforging 11 and only reaches 69% at 200 — once you can make it, it is essentially done.</p>
+<p>A <strong>max-VIII</strong> stone goes from 4% at 75 to 23% at 200, nearly six times better. Those are the ones that reward the grind.</p>
 </div>
 <div class="admonition danger">
-<p class="admonition-title">Big stones roll <em>badly</em> until Gemforging 145</p>
-<p>For enchants with a maximum of <strong>VI or above</strong>, the curve is deliberately weighted toward the low end at first. It is flat at <strong>Gemforging 145</strong> — every level equally likely — and only favours high rolls above that.</p>
+<p class="admonition-title">Big stones roll badly until Gemforging 145</p>
+<p>For enchants with a maximum of <strong>VI or above</strong>, the odds are deliberately weighted toward the low end at first. They are flat at <strong>Gemforging 145</strong> — every level equally likely — and only favour high rolls above that.</p>
 <p>That is why a max-VI stone at 75 hits VI just <strong>8%</strong> of the time while a max-V stone hits V <strong>31%</strong> of the time. If you want Sharpness VIII or Power VIII, crafting before 145 is mostly burning materials.</p>
 </div>
 <h3 id="every-levels-odds">Every level's odds<a class="headerlink" href="#every-levels-odds" title="Permanent link">&para;</a></h3>
@@ -2356,14 +2450,34 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>25</strong></td>
-<td>100%</td>
-<td>0%</td>
+<td><strong>11</strong></td>
+<td>40%</td>
+<td>60%</td>
 </tr>
 <tr>
-<td><strong>50</strong></td>
-<td>100%</td>
-<td>0%</td>
+<td><strong>22</strong></td>
+<td>39%</td>
+<td>61%</td>
+</tr>
+<tr>
+<td><strong>33</strong></td>
+<td>39%</td>
+<td>61%</td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
+<td>38%</td>
+<td>62%</td>
+</tr>
+<tr>
+<td><strong>54</strong></td>
+<td>38%</td>
+<td>62%</td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td>37%</td>
+<td>63%</td>
 </tr>
 <tr>
 <td><strong>75</strong></td>
@@ -2417,16 +2531,40 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>25</strong></td>
-<td>100%</td>
-<td>0%</td>
+<td><strong>11</strong></td>
+<td>42%</td>
+<td>58%</td>
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>50</strong></td>
-<td>40%</td>
-<td>60%</td>
-<td>0%</td>
+<td><strong>22</strong></td>
+<td>23%</td>
+<td>32%</td>
+<td>45%</td>
+</tr>
+<tr>
+<td><strong>33</strong></td>
+<td>22%</td>
+<td>32%</td>
+<td>46%</td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
+<td>22%</td>
+<td>32%</td>
+<td>47%</td>
+</tr>
+<tr>
+<td><strong>54</strong></td>
+<td>21%</td>
+<td>32%</td>
+<td>47%</td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td>20%</td>
+<td>31%</td>
+<td>48%</td>
 </tr>
 <tr>
 <td><strong>75</strong></td>
@@ -2488,18 +2626,46 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>25</strong></td>
+<td><strong>11</strong></td>
 <td>44%</td>
 <td>56%</td>
 <td>0%</td>
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>50</strong></td>
-<td>24%</td>
-<td>32%</td>
-<td>44%</td>
+<td><strong>22</strong></td>
+<td>26%</td>
+<td>33%</td>
+<td>42%</td>
 <td>0%</td>
+</tr>
+<tr>
+<td><strong>33</strong></td>
+<td>16%</td>
+<td>21%</td>
+<td>27%</td>
+<td>36%</td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
+<td>15%</td>
+<td>21%</td>
+<td>27%</td>
+<td>37%</td>
+</tr>
+<tr>
+<td><strong>54</strong></td>
+<td>15%</td>
+<td>20%</td>
+<td>28%</td>
+<td>37%</td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td>14%</td>
+<td>20%</td>
+<td>28%</td>
+<td>38%</td>
 </tr>
 <tr>
 <td><strong>75</strong></td>
@@ -2569,20 +2735,52 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>25</strong></td>
-<td>46%</td>
-<td>54%</td>
+<td><strong>11</strong></td>
+<td>47%</td>
+<td>53%</td>
 <td>0%</td>
 <td>0%</td>
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>50</strong></td>
-<td>27%</td>
+<td><strong>22</strong></td>
+<td>29%</td>
 <td>33%</td>
-<td>40%</td>
+<td>38%</td>
 <td>0%</td>
 <td>0%</td>
+</tr>
+<tr>
+<td><strong>33</strong></td>
+<td>19%</td>
+<td>23%</td>
+<td>27%</td>
+<td>32%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
+<td>13%</td>
+<td>16%</td>
+<td>19%</td>
+<td>23%</td>
+<td>28%</td>
+</tr>
+<tr>
+<td><strong>54</strong></td>
+<td>13%</td>
+<td>16%</td>
+<td>19%</td>
+<td>24%</td>
+<td>29%</td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td>12%</td>
+<td>15%</td>
+<td>19%</td>
+<td>24%</td>
+<td>30%</td>
 </tr>
 <tr>
 <td><strong>75</strong></td>
@@ -2660,7 +2858,7 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>25</strong></td>
+<td><strong>11</strong></td>
 <td>56%</td>
 <td>44%</td>
 <td>0%</td>
@@ -2669,13 +2867,49 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>50</strong></td>
+<td><strong>22</strong></td>
+<td>42%</td>
+<td>33%</td>
+<td>25%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>33</strong></td>
 <td>35%</td>
 <td>27%</td>
 <td>21%</td>
 <td>17%</td>
 <td>0%</td>
 <td>0%</td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
+<td>31%</td>
+<td>24%</td>
+<td>19%</td>
+<td>15%</td>
+<td>11%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>54</strong></td>
+<td>28%</td>
+<td>22%</td>
+<td>17%</td>
+<td>13%</td>
+<td>10%</td>
+<td>8%</td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td>28%</td>
+<td>22%</td>
+<td>17%</td>
+<td>13%</td>
+<td>10%</td>
+<td>8%</td>
 </tr>
 <tr>
 <td><strong>75</strong></td>
@@ -2761,7 +2995,17 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>25</strong></td>
+<td><strong>11</strong></td>
+<td>56%</td>
+<td>44%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>22</strong></td>
 <td>42%</td>
 <td>33%</td>
 <td>25%</td>
@@ -2771,7 +3015,17 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>50</strong></td>
+<td><strong>33</strong></td>
+<td>35%</td>
+<td>27%</td>
+<td>21%</td>
+<td>17%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
 <td>31%</td>
 <td>24%</td>
 <td>19%</td>
@@ -2779,6 +3033,26 @@
 <td>11%</td>
 <td>0%</td>
 <td>0%</td>
+</tr>
+<tr>
+<td><strong>54</strong></td>
+<td>28%</td>
+<td>22%</td>
+<td>17%</td>
+<td>13%</td>
+<td>10%</td>
+<td>8%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td>27%</td>
+<td>21%</td>
+<td>16%</td>
+<td>13%</td>
+<td>10%</td>
+<td>8%</td>
+<td>6%</td>
 </tr>
 <tr>
 <td><strong>75</strong></td>
@@ -2872,7 +3146,18 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>25</strong></td>
+<td><strong>11</strong></td>
+<td>56%</td>
+<td>44%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>22</strong></td>
 <td>42%</td>
 <td>33%</td>
 <td>25%</td>
@@ -2883,7 +3168,18 @@
 <td>0%</td>
 </tr>
 <tr>
-<td><strong>50</strong></td>
+<td><strong>33</strong></td>
+<td>35%</td>
+<td>27%</td>
+<td>21%</td>
+<td>17%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
 <td>31%</td>
 <td>24%</td>
 <td>19%</td>
@@ -2891,6 +3187,28 @@
 <td>11%</td>
 <td>0%</td>
 <td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>54</strong></td>
+<td>28%</td>
+<td>22%</td>
+<td>17%</td>
+<td>13%</td>
+<td>10%</td>
+<td>8%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td>27%</td>
+<td>21%</td>
+<td>16%</td>
+<td>13%</td>
+<td>10%</td>
+<td>8%</td>
+<td>6%</td>
 <td>0%</td>
 </tr>
 <tr>
@@ -2962,7 +3280,6 @@
 </tbody>
 </table>
 </details>
-<p>A 0% means that level is not unlocked yet and cannot roll at all.</p>
 <h3 id="experience-for-rolling-well">Experience for rolling well<a class="headerlink" href="#experience-for-rolling-well" title="Permanent link">&para;</a></h3>
 <p>You earn <strong>bonus Gemforging experience for a good roll</strong> — 15% extra at three-quarters of an enchant's max level, 30% at nine-tenths, and <strong>50% for a perfect maximum roll</strong>. Bigger enchants also pay more per craft, so levelling on the stones you actually want is not wasted.</p>
 <h3 id="vanilla-enchantments-raised">Vanilla enchantments, raised<a class="headerlink" href="#vanilla-enchantments-raised" title="Permanent link">&para;</a></h3>
