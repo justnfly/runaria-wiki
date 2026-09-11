@@ -61,20 +61,151 @@ Use a **Gem Remover** to pop a gem back out.
 
 ## Enchant Stones
 
-Enchant Stones carry an enchantment and socket into an item's Enchant Socket. There are **123 of them** — 81 custom Runaria enchantments and 42 vanilla ones.
+Enchant Stones carry an enchantment and socket into an item's Enchant Socket. There are **122 of them** — 80 custom Runaria enchantments and 42 vanilla ones.
 
 ### You roll the level, you don't pick it
 
-This is the part that matters most:
+One stone covers a whole enchant. **The level is rolled when you craft it**, from your Gemforging level, and shown on the stone's lore.
 
-- **Below Gemforging 75**, you're capped well under an enchant's maximum. At level 1 you will only ever roll level I.
-- **At Gemforging 75**, every tier becomes reachable.
-- **Past 75**, the odds keep shifting toward high rolls all the way to level 200.
+Two things decide the roll:
 
-You also earn **bonus Gemforging experience for rolling well** — 15% extra at three-quarters of max level, 30% at nine-tenths, and **50% for a perfect maximum roll**.
+1. **Which levels are unlocked.** Below Gemforging 75 you simply cannot roll the top levels — they unlock evenly as you level, and all of them are open at **75**.
+2. **How the odds lean.** Once a level is unlocked, the odds shift toward higher rolls as you keep levelling past 75.
 
-!!! tip "Grind Gemforging before chasing high-level stones"
-    Nothing stops you crafting a top-tier stone at Gemforging 5 — you'll just roll level I and waste the materials. Get to 75 first.
+### Chance of rolling the maximum level
+
+| Gemforging | max II | max III | max IV | max V | max VI | max VII | max VIII |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **1** | — | — | — | — | — | — | — |
+| **25** | — | — | — | — | — | — | — |
+| **50** | — | — | — | — | — | — | — |
+| **75** | 63% | 49% | 39% | 31% | 8% | 6% | 4% |
+| **100** | 65% | 51% | 41% | 33% | 11% | 8% | 7% |
+| **125** | 66% | 52% | 43% | 36% | 14% | 11% | 10% |
+| **150** | 67% | 54% | 46% | 38% | 18% | 15% | 13% |
+| **175** | 68% | 56% | 48% | 41% | 22% | 19% | 18% |
+| **200** | 69% | 57% | 50% | 43% | 26% | 24% | 23% |
+
+!!! warning "Gemforging 75 is the floor, not the goal"
+    75 unlocks every level, but it does **not** mean you will roll them. A max-VIII stone crafted at exactly 75 hits VIII only **4%** of the time — and rolls I, II or III more than 60% of the time.
+
+!!! tip "Small enchants stop caring after 75. Big ones do not."
+    A **max-II** stone goes from 63% to 69% between Gemforging 75 and 200 — 125 levels for six percentage points. Once you are at 75, craft them freely.
+
+    A **max-VIII** stone goes from 4% to 23% over the same stretch, nearly six times better. Those are the ones worth saving for.
+
+!!! danger "Big stones roll *badly* until Gemforging 145"
+    For enchants with a maximum of **VI or above**, the curve is deliberately weighted toward the low end at first. It is flat at **Gemforging 145** — every level equally likely — and only favours high rolls above that.
+
+    That is why a max-VI stone at 75 hits VI just **8%** of the time while a max-V stone hits V **31%** of the time. If you want Sharpness VIII or Power VIII, crafting before 145 is mostly burning materials.
+
+### Every level's odds
+
+**23 stones have a maximum of I** — Mending, Silk Touch, Infinity, Soulbound and the rest. Those always roll I, so your Gemforging level makes no difference to them at all.
+
+??? note "Max level II — 24 stones"
+
+    | Gemforging | I | II |
+    | --- | --- | --- |
+    | **1** | 100% | — |
+    | **25** | 100% | — |
+    | **50** | 100% | — |
+    | **75** | 37% | 63% |
+    | **100** | 35% | 65% |
+    | **125** | 34% | 66% |
+    | **150** | 33% | 67% |
+    | **175** | 32% | 68% |
+    | **200** | 31% | 69% |
+
+??? note "Max level III — 29 stones"
+
+    | Gemforging | I | II | III |
+    | --- | --- | --- | --- |
+    | **1** | 100% | — | — |
+    | **25** | 100% | — | — |
+    | **50** | 40% | 60% | — |
+    | **75** | 20% | 31% | 49% |
+    | **100** | 19% | 31% | 51% |
+    | **125** | 17% | 30% | 52% |
+    | **150** | 16% | 30% | 54% |
+    | **175** | 15% | 29% | 56% |
+    | **200** | 14% | 28% | 57% |
+
+??? note "Max level IV — 16 stones"
+
+    | Gemforging | I | II | III | IV |
+    | --- | --- | --- | --- | --- |
+    | **1** | 100% | — | — | — |
+    | **25** | 44% | 56% | — | — |
+    | **50** | 24% | 32% | 44% | — |
+    | **75** | 14% | 19% | 28% | 39% |
+    | **100** | 12% | 19% | 28% | 41% |
+    | **125** | 11% | 18% | 28% | 43% |
+    | **150** | 10% | 17% | 28% | 46% |
+    | **175** | 9% | 16% | 27% | 48% |
+    | **200** | 8% | 15% | 27% | 50% |
+
+??? note "Max level V — 14 stones"
+
+    | Gemforging | I | II | III | IV | V |
+    | --- | --- | --- | --- | --- | --- |
+    | **1** | 100% | — | — | — | — |
+    | **25** | 46% | 54% | — | — | — |
+    | **50** | 27% | 33% | 40% | — | — |
+    | **75** | 11% | 15% | 19% | 24% | 31% |
+    | **100** | 10% | 14% | 18% | 25% | 33% |
+    | **125** | 9% | 13% | 18% | 25% | 36% |
+    | **150** | 8% | 11% | 17% | 26% | 38% |
+    | **175** | 7% | 11% | 16% | 26% | 41% |
+    | **200** | 6% | 10% | 16% | 26% | 43% |
+
+??? note "Max level VI — 11 stones"
+
+    | Gemforging | I | II | III | IV | V | VI |
+    | --- | --- | --- | --- | --- | --- | --- |
+    | **1** | 100% | — | — | — | — | — |
+    | **25** | 56% | 44% | — | — | — | — |
+    | **50** | 35% | 27% | 21% | 17% | — | — |
+    | **75** | 28% | 22% | 17% | 13% | 10% | 8% |
+    | **100** | 24% | 20% | 17% | 15% | 13% | 11% |
+    | **125** | 20% | 18% | 17% | 16% | 15% | 14% |
+    | **150** | 16% | 16% | 16% | 17% | 17% | 18% |
+    | **175** | 12% | 14% | 15% | 17% | 19% | 22% |
+    | **200** | 10% | 12% | 14% | 17% | 21% | 26% |
+
+??? note "Max level VII — 3 stones"
+
+    | Gemforging | I | II | III | IV | V | VI | VII |
+    | --- | --- | --- | --- | --- | --- | --- | --- |
+    | **1** | 100% | — | — | — | — | — | — |
+    | **25** | 42% | 33% | 25% | — | — | — | — |
+    | **50** | 31% | 24% | 19% | 15% | 11% | — | — |
+    | **75** | 27% | 21% | 16% | 13% | 10% | 8% | 6% |
+    | **100** | 22% | 19% | 16% | 14% | 12% | 10% | 8% |
+    | **125** | 17% | 16% | 15% | 14% | 13% | 12% | 11% |
+    | **150** | 13% | 14% | 14% | 14% | 15% | 15% | 15% |
+    | **175** | 10% | 11% | 12% | 14% | 16% | 17% | 19% |
+    | **200** | 7% | 9% | 11% | 13% | 16% | 20% | 24% |
+
+??? note "Max level VIII — 3 stones"
+
+    | Gemforging | I | II | III | IV | V | VI | VII | VIII |
+    | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+    | **1** | 100% | — | — | — | — | — | — | — |
+    | **25** | 42% | 33% | 25% | — | — | — | — | — |
+    | **50** | 31% | 24% | 19% | 15% | 11% | — | — | — |
+    | **75** | 26% | 20% | 16% | 12% | 9% | 7% | 6% | 4% |
+    | **100** | 20% | 17% | 15% | 13% | 11% | 9% | 8% | 7% |
+    | **125** | 16% | 15% | 14% | 13% | 12% | 11% | 10% | 10% |
+    | **150** | 12% | 12% | 12% | 12% | 13% | 13% | 13% | 13% |
+    | **175** | 8% | 9% | 10% | 11% | 13% | 14% | 16% | 18% |
+    | **200** | 6% | 7% | 8% | 10% | 12% | 15% | 19% | 23% |
+
+A dash means that level is not unlocked yet and cannot roll at all.
+
+### Experience for rolling well
+
+You earn **bonus Gemforging experience for a good roll** — 15% extra at three-quarters of an enchant's max level, 30% at nine-tenths, and **50% for a perfect maximum roll**. Bigger enchants also pay more per craft, so levelling on the stones you actually want is not wasted.
 
 ### Vanilla enchantments, raised
 
