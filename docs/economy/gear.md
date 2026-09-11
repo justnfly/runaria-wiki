@@ -590,25 +590,6 @@ Both use the same rarity bands as weapon main and side stats. Backpacks also car
 
 ---
 
-## Upgrading
-
-Most weapons and armour can be upgraded **up to +10** with an Item Upgrader. The level shows in the item name as `(+N)`.
-
-Each level adds, relative to the item's current values:
-
-- **+3%** Armor
-- **+2%** Armor Toughness
-- **+5%** Block Rating
-- **+5%** Dodge Rating
-- **+5%** Parry Rating
-
-This is the same on every rarity.
-
-!!! info "Gems do not upgrade with the item"
-    A socketed gem keeps the stats it had when it went in. Upgrading the host item does not touch it.
-
----
-
 ## Quick reference
 
 | If you want… | Look for |
