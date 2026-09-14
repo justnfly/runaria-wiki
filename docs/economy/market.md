@@ -18,13 +18,16 @@ The `seeds` category **restocks every 3 hours**, aligned to 12/3/6/9 o'clock Eas
 - Only **3–6 seed types** are stocked per restock, weighted so common seeds appear far more often than unique ones.
 - Each seed has a **per-player purchase limit** per cycle.
 
-Crop sell prices climb from **400** (common) to **12,500** (unique) — and star-quality crops multiply that: **silver ×5, gold ×11**.
+Crop sell prices climb from **200** (common) to **3,500** (unique) — and star-quality crops multiply that: **silver ×2, gold ×4**.
 
 ### Junk Vendor
 
 The bottom-right button of `/shop`. Dump unwanted gear and drops into a 45-slot grid, preview the payout per stack and the running total, then sell it all at once. Anything unsellable is handed back.
 
-Manastones pay best (around 75% of the matching crop price), while old gear sells as vendor trash at roughly 30%. `/sell hand` and `/sell all` use the same pricing.
+Manastones pay best (around 75% of the matching crop price), while old gear sells as vendor trash at roughly 30%. The sell commands use the same pricing:
+
+- **`/sellhand`** (or `/sell hand`) — sell what you're holding at the best available price.
+- **`/sellall`** (or `/sell all`, `/sellinv`) — sell everything sellable in your inventory, with a confirmation screen first. **This includes weapons and armor**, so read the summary before confirming.
 
 ## Black Market
 
@@ -66,7 +69,7 @@ Pay to feature your shop or a specific item, or outbid others for a daily **broa
 
 ### Reviews
 
-Star-rate shops you've actually bought from, on a 24-hour cooldown. Sellers earn badges: **Trusted Seller** (100 sales at 4.5+), **High Volume** (1,000 items), **Customer Favorite** (25 repeat buyers).
+Open any shop from **Browse Shops** and hit **Reviews** to see its reputation or star-rate it yourself — you have to have actually bought from the shop, and you can update your rating once per day. Sellers earn badges: **Trusted Seller** (100 sales at 4.5+), **High Volume** (1,000 items), **Customer Favorite** (25 repeat buyers).
 
 ## Money & Runaria Coins
 
@@ -76,6 +79,7 @@ Star-rate shops you've actually bought from, on a 24-hour cooldown. Sellers earn
 | Command | What it does |
 | --- | --- |
 | `/shop` | Server shop (also `/servershop`, `/bazaar`) |
+| `/sellhand` · `/sellall` | Sell your held item / your whole inventory (also `/sell hand`, `/sell all`) |
 | `/blackmarket` | Rotating black market (alias `/bm`) |
 | `/ah` | Auction House (aliases `/auction`, `/auctionhouse`) |
 | `/trading` | Trading Hub — buy/sell orders (aliases `/trade`, `/hub`) |
