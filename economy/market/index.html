@@ -2069,10 +2069,14 @@
 <li>Only <strong>3–6 seed types</strong> are stocked per restock, weighted so common seeds appear far more often than unique ones.</li>
 <li>Each seed has a <strong>per-player purchase limit</strong> per cycle.</li>
 </ul>
-<p>Crop sell prices climb from <strong>400</strong> (common) to <strong>12,500</strong> (unique) — and star-quality crops multiply that: <strong>silver ×5, gold ×11</strong>.</p>
+<p>Crop sell prices climb from <strong>200</strong> (common) to <strong>3,500</strong> (unique) — and star-quality crops multiply that: <strong>silver ×2, gold ×4</strong>.</p>
 <h3 id="junk-vendor">Junk Vendor<a class="headerlink" href="#junk-vendor" title="Permanent link">&para;</a></h3>
 <p>The bottom-right button of <code>/shop</code>. Dump unwanted gear and drops into a 45-slot grid, preview the payout per stack and the running total, then sell it all at once. Anything unsellable is handed back.</p>
-<p>Manastones pay best (around 75% of the matching crop price), while old gear sells as vendor trash at roughly 30%. <code>/sell hand</code> and <code>/sell all</code> use the same pricing.</p>
+<p>Manastones pay best (around 75% of the matching crop price), while old gear sells as vendor trash at roughly 30%. The sell commands use the same pricing:</p>
+<ul>
+<li><strong><code>/sellhand</code></strong> (or <code>/sell hand</code>) — sell what you're holding at the best available price.</li>
+<li><strong><code>/sellall</code></strong> (or <code>/sell all</code>, <code>/sellinv</code>) — sell everything sellable in your inventory, with a confirmation screen first. <strong>This includes weapons and armor</strong>, so read the summary before confirming.</li>
+</ul>
 <h2 id="black-market">Black Market<a class="headerlink" href="#black-market" title="Permanent link">&para;</a></h2>
 <p><code>/blackmarket</code> — <strong>9 limited-stock items</strong>, rerolled daily at <strong>1:00 AM Eastern</strong> from weighted pools, each with its own randomised price and stock. The refresh is broadcast. When it's gone, it's gone.</p>
 <h2 id="auction-house-trading-hub">Auction House &amp; Trading Hub<a class="headerlink" href="#auction-house-trading-hub" title="Permanent link">&para;</a></h2>
@@ -2135,7 +2139,7 @@
 <h3 id="advertising">Advertising<a class="headerlink" href="#advertising" title="Permanent link">&para;</a></h3>
 <p>Pay to feature your shop or a specific item, or outbid others for a daily <strong>broadcast slot</strong>. The top 3 bidders get a featured row plus a rotating chat broadcast every 10 minutes — and their customers get a <strong>server-covered 5% discount</strong>.</p>
 <h3 id="reviews">Reviews<a class="headerlink" href="#reviews" title="Permanent link">&para;</a></h3>
-<p>Star-rate shops you've actually bought from, on a 24-hour cooldown. Sellers earn badges: <strong>Trusted Seller</strong> (100 sales at 4.5+), <strong>High Volume</strong> (1,000 items), <strong>Customer Favorite</strong> (25 repeat buyers).</p>
+<p>Open any shop from <strong>Browse Shops</strong> and hit <strong>Reviews</strong> to see its reputation or star-rate it yourself — you have to have actually bought from the shop, and you can update your rating once per day. Sellers earn badges: <strong>Trusted Seller</strong> (100 sales at 4.5+), <strong>High Volume</strong> (1,000 items), <strong>Customer Favorite</strong> (25 repeat buyers).</p>
 <h2 id="money-runaria-coins">Money &amp; Runaria Coins<a class="headerlink" href="#money-runaria-coins" title="Permanent link">&para;</a></h2>
 <div class="admonition info">
 <p class="admonition-title">Two currencies</p>
@@ -2152,6 +2156,10 @@
 <tr>
 <td><code>/shop</code></td>
 <td>Server shop (also <code>/servershop</code>, <code>/bazaar</code>)</td>
+</tr>
+<tr>
+<td><code>/sellhand</code> · <code>/sellall</code></td>
+<td>Sell your held item / your whole inventory (also <code>/sell hand</code>, <code>/sell all</code>)</td>
 </tr>
 <tr>
 <td><code>/blackmarket</code></td>
